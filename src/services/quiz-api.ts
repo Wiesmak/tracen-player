@@ -5,7 +5,7 @@ import Answer from "@/entities/answer"
 
 const quizApi = createApi({
     reducerPath: "quizApi",
-    baseQuery: fetchBaseQuery({ baseUrl: "/data" }),
+    baseQuery: fetchBaseQuery({ baseUrl: `${process.env.NEXT_PUBLIC_BASE_PATH || ""}/data` }),
     endpoints: (builder) => ({
         getQuizzes: builder.query<Quiz[], void>({
             query: () => '/quizzes.json',

@@ -50,6 +50,7 @@ jobs:
         run: |
           echo "" > .env.local
           echo BASE_PATH=$BASE_PATH >> .env.local
+          echo "NEXT_PUBLIC_BASE_PATH=$BASE_PATH" >> .env.local
 
       - name: Transpile input files
         run: bun run generate-data
