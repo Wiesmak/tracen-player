@@ -7,7 +7,6 @@ import useQuestions from "@/features/quiz/hooks/use-questions"
 import useQuizFlow from "@/features/quiz/hooks/use-quiz-flow"
 import useSelection from "@/features/quiz/hooks/use-selection"
 import { useGetQuestionByIdQuery } from "@/services/quiz-api"
-import nextConfig from "../../../../next.config"
 
 interface QuizPageProps {
     quiz: Quiz,
@@ -47,7 +46,7 @@ const QuizPlayer = ({quiz}: QuizPageProps) => {
                         onClick={() => handleSelect(a.id)}
                     >
                         <Image
-                            src={`${nextConfig.basePath}/assets/${a.image}`}
+                            src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/assets/${a.image}`}
                             alt="Answer image"
                             width={100}
                             height={100}
