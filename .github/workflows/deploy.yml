@@ -37,12 +37,15 @@ jobs:
           path: |
             ~/.bun/install/cache
             ${{ github.workspace }}/.next/cache
-          key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lock')
+          key: ${{ runner.os }}-bun-${{ hashFiles('**/bun.lock') }}
           restore-keys: |
             ${{ runner.os }}-nextjs-${{ hashFiles('**/bun.lock') }}-
 
       - name: Install dependencies
         run: bun install
+
+      - name: Transpile input files
+        run: bun run generate-data
 
       - name: Build with Next.js
         run: bun run build
