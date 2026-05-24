@@ -1,0 +1,52 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - '*'
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: 'true'
+
+      - name: Checkout lfs
+        run: |
+          git lfs install --local
+          AUTH=$(git config --local http.${{ github.server_url }}/.extraheader)
+          git config --local --unset http.${{ github.server_url }}/.extraheader
+          git config --local http.${{ github.server_url }}/${{ github.repository }}.git/info/lfs/objects/batch.extraheader "$AUTH"
+          git lfs pull
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Transpile input files
+        run: bun run generate-data
+
+      - name: Build
+        run: bun run build
+
+      - name: Zip compiled output
+        run: |
+          cd out
+          zip -r ../tracen-player.zip ./*
+          cd ..
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: tracen-player.zip
+
