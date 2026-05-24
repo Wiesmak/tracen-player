@@ -2,6 +2,7 @@
 
 import Image from "next/image"
 import useQuestionBlock from "@/features/quiz/hooks/use-question-block"
+import nextConfig from "../../../../next.config"
 
 interface QuestionBlockProps {
     questionId: string
@@ -25,7 +26,7 @@ const QuestionBlock = ({questionId}: QuestionBlockProps) => {
     return <div className="flex flex-col items-center justify-center gap-5 p-5">
         {question.text}
         {currentImage && (
-            <Image src={`/assets/${currentImage}`} alt="Question image" width={300} height={200} className="rounded-lg shadow-md"/>
+            <Image src={`${nextConfig.basePath}/assets/${currentImage}`} alt="Question image" width={300} height={200} className="rounded-lg shadow-md"/>
         )}
     </div>
 }
