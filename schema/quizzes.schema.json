@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Quizzes Schema",
+  "description": "An array of quizzes",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "description": "Unique identifier for the quiz"
+      },
+      "title": {
+        "type": "string",
+        "description": "Title of the quiz"
+      },
+      "image": {
+        "type": "string",
+        "description": "Image associated with the quiz"
+      },
+      "description": {
+        "type": "string",
+        "description": "Description of the quiz"
+      },
+      "type": {
+        "type": "string",
+        "enum": ["uma", "truefalse", "match"],
+        "description": "The type of the quiz"
+      },
+      "questions": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "List of question identifiers or references associated with the quiz"
+      }
+    },
+    "required": [
+      "id",
+      "title",
+      "image",
+      "description",
+      "type",
+      "questions"
+    ],
+    "additionalProperties": false
+  }
+}

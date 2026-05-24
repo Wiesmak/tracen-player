@@ -1,0 +1,112 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Data Entry Schema",
+  "description": "Schema for the quiz data entry format",
+  "type": "object",
+  "properties": {
+    "quiz": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for the quiz"
+        },
+        "title": {
+          "type": "string",
+          "description": "Title of the quiz"
+        },
+        "image": {
+          "type": "string",
+          "description": "Image associated with the quiz"
+        },
+        "description": {
+          "type": "string",
+          "description": "Description of the quiz"
+        },
+        "type": {
+          "type": "string",
+          "enum": ["uma", "truefalse", "match"],
+          "description": "The type of the quiz"
+        }
+      },
+      "required": [
+        "id",        "title",
+        "image",
+        "description",
+        "type"
+      ],
+      "additionalProperties": false
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the question"
+          },
+          "id_answer": {
+            "type": "string",
+            "description": "Unique identifier for the correct answer to this question"
+          },
+          "text": {
+            "type": "string",
+            "description": "The question text"
+          },
+          "images": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Optional images for the question"
+          },
+          "audio": {
+            "type": "string",
+            "description": "Optional audio for the question"
+          }
+        },
+        "required": [
+          "id",
+          "id_answer",
+          "text"
+        ],
+        "additionalProperties": false
+      },
+      "description": "List of questions for the quiz"
+    },
+    "answers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the answer"
+          },
+          "text": {
+            "type": "string",
+            "description": "The answer text"
+          },
+          "image": {
+            "type": "string",
+            "description": "Optional image for the answer"
+          }
+        },
+        "required": [
+          "id",
+          "text"
+        ],
+        "additionalProperties": false
+      },
+      "description": "List of answers for the quiz's questions"
+    }
+  },
+  "required": [
+    "quiz",
+    "questions",
+    "answers"
+  ],
+  "additionalProperties": false
+}
+

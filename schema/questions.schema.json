@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Questions Schema",
+  "description": "An array of questions",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string"
+      },
+      "text": {
+        "type": "string"
+      },
+      "images": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "audio": {
+        "type": "string"
+      },
+      "answerId": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "id",
+      "text",
+      "answerId"
+    ],
+    "additionalProperties": false
+  }
+}
