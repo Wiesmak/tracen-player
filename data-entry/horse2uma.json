@@ -1,9 +1,9 @@
 {
   "quiz": {
     "id": "horse2uma",
-    "title": "Guess Umamusume based on the IRL horse and racing silks",
-    "image": "uma.png",
-    "description": "Lorem ipsum.",
+    "title": "IRL Horse Quiz",
+    "image": "umahalf.png",
+    "description": "Guess Umamusume based on the IRL horse and racing silks.",
     "type": "uma"
   },
   "questions": [
@@ -219,7 +219,7 @@
       "id_answer": "aebbb598-eed5-489c-8cae-a957d351a213",
       "text": "",
       "images": [
-        "horse2uma/q_horse2uma_matikane-_fukukitaru.png"
+        "horse2uma/q_horse2uma_matikanefukukitaru.png"
       ],
       "audio": ""
     },
@@ -453,7 +453,7 @@
       "id_answer": "cbe3bade-c6ea-499d-9ab4-3b2250f47e1c",
       "text": "",
       "images": [
-        "horse2uma/q_horse2uma_matikane-_tannhauser.png"
+        "horse2uma/q_horse2uma_matikanetannhauser.png"
       ],
       "audio": ""
     },
@@ -560,307 +560,307 @@
   "answers": [
     {
       "id": "40349e0b-64e1-4c7f-8c32-59ac5bcc5860",
-      "text": "",
+      "text": "Special Week",
       "image": "umamusume_racewear/special_week_racewear.png"
     },
     {
       "id": "bbdf6a77-76fd-41b6-bb3e-c76987c1ac23",
-      "text": "",
+      "text": "Silence Suzuka",
       "image": "umamusume_racewear/silence_suzuka_racewear.png"
     },
     {
       "id": "4484406e-83d8-49bf-a0c1-5c2a5b7871a0",
-      "text": "",
+      "text": "Tokai Teio",
       "image": "umamusume_racewear/tokai_teio_racewear.png"
     },
     {
       "id": "a8417d19-0572-482b-b747-eaaa9c6957f6",
-      "text": "",
+      "text": "Maruzensky",
       "image": "umamusume_racewear/maruzensky_racewear.png"
     },
     {
       "id": "ee280785-b957-4bdb-b461-2f8b2b6789c3",
-      "text": "",
+      "text": "Oguri Cap",
       "image": "umamusume_racewear/oguri_cap_racewear.png"
     },
     {
       "id": "56274671-ef6f-4af8-989c-33e61a73541a",
-      "text": "",
+      "text": "Gold Ship",
       "image": "umamusume_racewear/gold_ship_racewear.png"
     },
     {
       "id": "d32c5e88-a4dd-44e3-9b7a-c5a55ee16912",
-      "text": "",
+      "text": "Vodka",
       "image": "umamusume_racewear/vodka_racewear.png"
     },
     {
       "id": "426d363c-39cb-4fa1-8bfe-942c16e4df15",
-      "text": "",
+      "text": "Daiwa Scarlet",
       "image": "umamusume_racewear/daiwa_scarlet_racewear.png"
     },
     {
       "id": "dc23645f-a6c8-4325-af64-3be408f3a5ce",
-      "text": "",
+      "text": "Taiki Shuttle",
       "image": "umamusume_racewear/taiki_shuttle_racewear.png"
     },
     {
       "id": "595d17a5-e1ed-44eb-8225-3e70577ce93d",
-      "text": "",
+      "text": "Grass Wonder",
       "image": "umamusume_racewear/grass_wonder_racewear.png"
     },
     {
       "id": "c18499b3-7ff4-4801-b951-35e69452a12c",
-      "text": "",
+      "text": "Mejiro Mcqueen",
       "image": "umamusume_racewear/mejiro_mcqueen_racewear.png"
     },
     {
       "id": "4373352f-e2f6-4595-b59e-3a7981c38aae",
-      "text": "",
+      "text": "El Condor Pasa",
       "image": "umamusume_racewear/el_condor_pasa_racewear.png"
     },
     {
       "id": "a304343b-536c-4290-b190-55c1bb018f61",
-      "text": "",
-      "image": "umamusume_racewear/tm_opera_o_racewear.png"
+      "text": "T.M. Opera O",
+      "image": "umamusume_racewear/t.m._opera_o_racewear.png"
     },
     {
       "id": "0fbaaa65-159c-446d-84fc-e7d18a691f03",
-      "text": "",
+      "text": "Symboli Rudolf",
       "image": "umamusume_racewear/symboli_rudolf_racewear.png"
     },
     {
       "id": "4bc755a3-4c35-4f75-8887-99eb09f9fef4",
-      "text": "",
+      "text": "Air Groove",
       "image": "umamusume_racewear/air_groove_racewear.png"
     },
     {
       "id": "21a1fe3c-d175-4d29-a486-f1cd6b4f7bb2",
-      "text": "",
+      "text": "Mayano Top Gun",
       "image": "umamusume_racewear/mayano_top_gun_racewear.png"
     },
     {
       "id": "3d5900cf-81da-4298-8112-a0e0863c9e0f",
-      "text": "",
+      "text": "Mejiro Ryan",
       "image": "umamusume_racewear/mejiro_ryan_racewear.png"
     },
     {
       "id": "2449eabd-c765-4c5c-bf16-e069aabd105f",
-      "text": "",
+      "text": "Rice Shower",
       "image": "umamusume_racewear/rice_shower_racewear.png"
     },
     {
       "id": "df8d89cc-4131-46b5-a2fa-b781a0fe858f",
-      "text": "",
+      "text": "Agnes Tachyon",
       "image": "umamusume_racewear/agnes_tachyon_racewear.png"
     },
     {
       "id": "da1bd103-41b5-42dd-8bee-b0315f1e1f88",
-      "text": "",
+      "text": "Winning Ticket",
       "image": "umamusume_racewear/winning_ticket_racewear.png"
     },
     {
       "id": "17080075-1d97-4f6c-9bc9-73499ae41839",
-      "text": "",
+      "text": "Sakura Bakushin O",
       "image": "umamusume_racewear/sakura_bakushin_o_racewear.png"
     },
     {
       "id": "639f7ba4-7422-4e76-9a8d-60532d15d4c4",
-      "text": "",
+      "text": "Super Creek",
       "image": "umamusume_racewear/super_creek_racewear.png"
     },
     {
       "id": "21cb4774-3aed-4d12-b63c-2792a9df195c",
-      "text": "",
+      "text": "Haru Urara",
       "image": "umamusume_racewear/haru_urara_racewear.png"
     },
     {
       "id": "aebbb598-eed5-489c-8cae-a957d351a213",
-      "text": "",
-      "image": "umamusume_racewear/matikane-_fukukitaru_racewear.png"
+      "text": "Matikanefukukitaru",
+      "image": "umamusume_racewear/matikanefukukitaru_racewear.png"
     },
     {
       "id": "b6b9a3c5-5a3f-4de3-abbf-779b9ecb7867",
-      "text": "",
+      "text": "Nice Nature",
       "image": "umamusume_racewear/nice_nature_racewear.png"
     },
     {
       "id": "d353a23a-03db-4a41-b535-90daa99fade9",
-      "text": "",
+      "text": "King Halo",
       "image": "umamusume_racewear/king_halo_racewear.png"
     },
     {
       "id": "f2b26095-bcee-44d7-89ae-b47e4a25dcf7",
-      "text": "",
+      "text": "Mihono Bourbon",
       "image": "umamusume_racewear/mihono_bourbon_racewear.png"
     },
     {
       "id": "891bb4f1-a224-466e-81cd-24f338cde65f",
-      "text": "",
+      "text": "Biwa Hayahide",
       "image": "umamusume_racewear/biwa_hayahide_racewear.png"
     },
     {
       "id": "74668e61-aac0-4b94-b03b-f40034575a35",
-      "text": "",
+      "text": "Curren Chan",
       "image": "umamusume_racewear/curren_chan_racewear.png"
     },
     {
       "id": "179817cd-f149-4469-a9e9-daef229fc4b7",
-      "text": "",
+      "text": "Narita Taishin",
       "image": "umamusume_racewear/narita_taishin_racewear.png"
     },
     {
       "id": "26e399bf-5755-4286-bf73-80352f243dc8",
-      "text": "",
+      "text": "Smart Falcon",
       "image": "umamusume_racewear/smart_falcon_racewear.png"
     },
     {
       "id": "22756f59-8293-427c-810a-921229de2460",
-      "text": "",
+      "text": "Narita Brian",
       "image": "umamusume_racewear/narita_brian_racewear.png"
     },
     {
       "id": "e94f70d2-29d5-47a7-8ede-e17a7b428c4a",
-      "text": "",
+      "text": "Seiun Sky",
       "image": "umamusume_racewear/seiun_sky_racewear.png"
     },
     {
       "id": "3e12dcf6-a393-442f-b1fb-7115d7c2770a",
-      "text": "",
+      "text": "Hishi Amazon",
       "image": "umamusume_racewear/hishi_amazon_racewear.png"
     },
     {
       "id": "2cfaf07b-b285-4961-afd4-e4b1e99f1d2f",
-      "text": "",
+      "text": "Fuji Kiseki",
       "image": "umamusume_racewear/fuji_kiseki_racewear.png"
     },
     {
       "id": "4e388872-3a50-4be2-8855-c7a6f1db730e",
-      "text": "",
+      "text": "Gold City",
       "image": "umamusume_racewear/gold_city_racewear.png"
     },
     {
       "id": "711b48aa-e528-4802-82b5-45916d419b83",
-      "text": "",
+      "text": "Meisho Doto",
       "image": "umamusume_racewear/meisho_doto_racewear.png"
     },
     {
       "id": "c56d68b8-4ece-4c04-a149-bff72b289cd2",
-      "text": "",
+      "text": "Eishin Flash",
       "image": "umamusume_racewear/eishin_flash_racewear.png"
     },
     {
       "id": "9357e5e1-6efd-4652-b1fd-d67b21481f33",
-      "text": "",
+      "text": "Hishi Akebono",
       "image": "umamusume_racewear/hishi_akebono_racewear.png"
     },
     {
       "id": "a780b900-13e6-45db-a7e5-ce27041e224f",
-      "text": "",
+      "text": "Agnes Digital",
       "image": "umamusume_racewear/agnes_digital_racewear.png"
     },
     {
       "id": "04fb9a18-c6f8-4cb5-963b-9792112ed31e",
-      "text": "",
+      "text": "Kawakami Princess",
       "image": "umamusume_racewear/kawakami_princess_racewear.png"
     },
     {
       "id": "eec2227a-c791-4627-8b9b-91d255e4308e",
-      "text": "",
+      "text": "Manhattan Cafe",
       "image": "umamusume_racewear/manhattan_cafe_racewear.png"
     },
     {
       "id": "1096441c-f085-48fa-ba4d-2d91fa19c7b0",
-      "text": "",
+      "text": "Tosen Jordan",
       "image": "umamusume_racewear/tosen_jordan_racewear.png"
     },
     {
       "id": "2c4c2840-d31f-4db6-957d-9f02c08be7e6",
-      "text": "",
+      "text": "Mejiro Dober",
       "image": "umamusume_racewear/mejiro_dober_racewear.png"
     },
     {
       "id": "d5221f7b-0a47-4557-a5ce-1888b9b76164",
-      "text": "",
+      "text": "Fine Motion",
       "image": "umamusume_racewear/fine_motion_racewear.png"
     },
     {
       "id": "16e666fb-bc7c-42c6-9b09-afbe8d87e2ee",
-      "text": "",
+      "text": "Tamamo Cross",
       "image": "umamusume_racewear/tamamo_cross_racewear.png"
     },
     {
       "id": "eba4e55f-4e1a-45c3-9ba5-7cb40b0c7ef7",
-      "text": "",
+      "text": "Sakura Chiyono O",
       "image": "umamusume_racewear/sakura_chiyono_o_racewear.png"
     },
     {
       "id": "a0fe8650-4fbb-4a10-a9dd-cdfc3616e45f",
-      "text": "",
+      "text": "Mejiro Ardan",
       "image": "umamusume_racewear/mejiro_ardan_racewear.png"
     },
     {
       "id": "192d393b-d414-4307-a924-57e326ab67b3",
-      "text": "",
+      "text": "Admire Vega",
       "image": "umamusume_racewear/admire_vega_racewear.png"
     },
     {
       "id": "cbe3bade-c6ea-499d-9ab4-3b2250f47e1c",
-      "text": "",
-      "image": "umamusume_racewear/matikane-_tannhauser_racewear.png"
+      "text": "Matikanetannhauser",
+      "image": "umamusume_racewear/matikanetannhauser_racewear.png"
     },
     {
       "id": "47f317c3-dcae-4f01-a5b1-8e3110f87fa9",
-      "text": "",
+      "text": "Kitasan Black",
       "image": "umamusume_racewear/kitasan_black_racewear.png"
     },
     {
       "id": "5e6242f6-4eba-4a05-a8a4-04c7881a1003",
-      "text": "",
+      "text": "Satono Diamond",
       "image": "umamusume_racewear/satono_diamond_racewear.png"
     },
     {
       "id": "1c366921-aeb4-4ce9-ac0a-c9ab601b5924",
-      "text": "",
+      "text": "Mejiro Bright",
       "image": "umamusume_racewear/mejiro_bright_racewear.png"
     },
     {
       "id": "f8f08df4-3831-4980-834c-aadb45a85d7a",
-      "text": "",
+      "text": "Nishino Flower",
       "image": "umamusume_racewear/nishino_flower_racewear.png"
     },
     {
       "id": "248f69c9-b3d5-45c6-953f-c005abe4f7f0",
-      "text": "",
+      "text": "Yaeno Muteki",
       "image": "umamusume_racewear/yaeno_muteki_racewear.png"
     },
     {
       "id": "07636b6a-3ca3-404d-9aa5-e8452be1e2ef",
-      "text": "",
+      "text": "Ines Fujin",
       "image": "umamusume_racewear/ines_fujin_racewear.png"
     },
     {
       "id": "21bd4a6c-9512-43f3-867e-2f4c4be7872e",
-      "text": "",
+      "text": "Mejiro Palmer",
       "image": "umamusume_racewear/mejiro_palmer_racewear.png"
     },
     {
       "id": "5629e5cc-54ca-4764-ab7e-adb64a398e1f",
-      "text": "",
+      "text": "Inari One",
       "image": "umamusume_racewear/inari_one_racewear.png"
     },
     {
       "id": "9976e64b-497f-4d5e-a6f8-93ba8473920d",
-      "text": "",
+      "text": "Sweep Tosho",
       "image": "umamusume_racewear/sweep_tosho_racewear.png"
     },
     {
       "id": "12f3ee2f-c516-47dc-bc95-af31e24678a4",
-      "text": "",
+      "text": "Air Shakur",
       "image": "umamusume_racewear/air_shakur_racewear.png"
     },
     {
       "id": "9e9bf190-a507-4062-bc74-bcb830c4babc",
-      "text": "",
+      "text": "Bamboo Memory",
       "image": "umamusume_racewear/bamboo_memory_racewear.png"
     }
   ]
