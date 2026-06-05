@@ -16,7 +16,7 @@ export default function Home() {
                      loop
                      muted
                      className="fixed top-0 left-0 size-full object-cover -z-10"/>
-              <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/assets/ui/demologo2.png`} alt="Logo"
+              <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/assets/ui/logo.png`} alt="Logo"
                      className="w-96 lg:w-3xl h-auto" width={715} height={797}/>
               <span className={`text-4xl lg:text-7xl font-semibold uppercase text-center
                             ${styles['fade-border']} ${styles.blink} ${styles.bottom}

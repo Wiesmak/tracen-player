@@ -16,8 +16,9 @@ const geistMono = Geist_Mono({
 })
 
 const kakugoLarge = localFont({
-  src: "./fonts/FOT-UDKakugo_C80_Pro.ttf",
+  src: "./fonts/FOT-UDKakugo_LargePr6N-DB.woff2",
   variable: "--font-kakugo-large",
+  weight: "600"
 })
 
 export const metadata: Metadata = {

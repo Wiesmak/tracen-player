@@ -18,7 +18,7 @@ const QuestionBlock = ({questionId}: QuestionBlockProps) => {
 
     if (error || !question) {
         return <div className="flex flex-col items-center justify-center gap-5 p-5">
-            Error!
+            <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/assets/ui/fail.jpg`} alt="failed" width={640} height={622} />
         </div>
     }
 
