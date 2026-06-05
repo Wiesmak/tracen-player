@@ -1,0 +1,867 @@
+{
+  "quiz": {
+    "id": "horse2uma",
+    "title": "Guess Umamusume based on the IRL horse and racing silks",
+    "image": "uma.png",
+    "description": "Lorem ipsum.",
+    "type": "uma"
+  },
+  "questions": [
+    {
+      "id": "a5c24a1b-da88-4768-a0e2-50977fa18841",
+      "id_answer": "40349e0b-64e1-4c7f-8c32-59ac5bcc5860",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_special_week.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "7afd2047-a96f-469c-a420-e94f34c8e3f5",
+      "id_answer": "bbdf6a77-76fd-41b6-bb3e-c76987c1ac23",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_silence_suzuka.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "ef92f98f-f963-406e-85f8-3223f15e8a34",
+      "id_answer": "4484406e-83d8-49bf-a0c1-5c2a5b7871a0",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_tokai_teio.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "498fe1a5-4bcd-4f92-8d75-5b6e2f293a80",
+      "id_answer": "a8417d19-0572-482b-b747-eaaa9c6957f6",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_maruzensky.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "2bf500a2-b510-49b0-b7c7-d844b327a62d",
+      "id_answer": "ee280785-b957-4bdb-b461-2f8b2b6789c3",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_oguri_cap.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "c599a517-4acc-4f85-9ccd-a8ddc19252d7",
+      "id_answer": "56274671-ef6f-4af8-989c-33e61a73541a",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_gold_ship.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "e091215b-ed07-42ce-b117-0fdc91f52d3c",
+      "id_answer": "d32c5e88-a4dd-44e3-9b7a-c5a55ee16912",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_vodka.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "14e8cc12-cc79-4c29-b9f3-c95970265f75",
+      "id_answer": "426d363c-39cb-4fa1-8bfe-942c16e4df15",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_daiwa_scarlet.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "f4bb87e2-75f7-49d6-afd5-715c651bb0da",
+      "id_answer": "dc23645f-a6c8-4325-af64-3be408f3a5ce",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_taiki_shuttle.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "fb037943-8b09-4c5f-ac91-0d0aa40e2a5f",
+      "id_answer": "595d17a5-e1ed-44eb-8225-3e70577ce93d",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_grass_wonder.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "296cb6c2-c982-441d-a311-70c7497a3986",
+      "id_answer": "c18499b3-7ff4-4801-b951-35e69452a12c",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_mejiro_mcqueen.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "37f11a25-b9c3-49a2-b277-f25df3b5948c",
+      "id_answer": "4373352f-e2f6-4595-b59e-3a7981c38aae",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_el_condor_pasa.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "bd64b353-be10-4806-b698-0bdd4f54be63",
+      "id_answer": "a304343b-536c-4290-b190-55c1bb018f61",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_tm_opera_o.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "7efe46b4-f043-4135-af83-7d6c48510a29",
+      "id_answer": "0fbaaa65-159c-446d-84fc-e7d18a691f03",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_symboli_rudolf.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "7c28c381-7620-4328-9611-e785cfed9f08",
+      "id_answer": "4bc755a3-4c35-4f75-8887-99eb09f9fef4",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_air_groove.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "dbf2ea54-f3f3-4a7d-b9af-2822cf3d5d5e",
+      "id_answer": "21a1fe3c-d175-4d29-a486-f1cd6b4f7bb2",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_mayano_top_gun.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "a8a6722b-5e99-470c-b093-f9591cc6dbdc",
+      "id_answer": "3d5900cf-81da-4298-8112-a0e0863c9e0f",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_mejiro_ryan.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "610b3050-f410-4a50-b725-39be66df3818",
+      "id_answer": "2449eabd-c765-4c5c-bf16-e069aabd105f",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_rice_shower.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "f4ed59d9-38ca-4c0c-8dc0-225f3a2500ec",
+      "id_answer": "df8d89cc-4131-46b5-a2fa-b781a0fe858f",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_agnes_tachyon.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "88507a7d-b6db-4539-a841-af7ad613e035",
+      "id_answer": "da1bd103-41b5-42dd-8bee-b0315f1e1f88",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_winning_ticket.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "362d13f6-5d73-4fae-8e2a-4274b842985d",
+      "id_answer": "17080075-1d97-4f6c-9bc9-73499ae41839",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_sakura_bakushin_o.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "ecc753bc-1735-468c-80fc-38fc113c387a",
+      "id_answer": "639f7ba4-7422-4e76-9a8d-60532d15d4c4",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_super_creek.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "d2da2d93-a6fb-4c0c-b500-329a3239e16f",
+      "id_answer": "21cb4774-3aed-4d12-b63c-2792a9df195c",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_haru_urara.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "42ed92e4-fb40-44aa-b89f-2dedc63c98f0",
+      "id_answer": "aebbb598-eed5-489c-8cae-a957d351a213",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_matikane-_fukukitaru.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "aad44b05-84dd-480d-88b8-5adfadb5dea2",
+      "id_answer": "b6b9a3c5-5a3f-4de3-abbf-779b9ecb7867",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_nice_nature.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "a9fb0bb7-f776-4d1c-8d65-cd63660d27c8",
+      "id_answer": "d353a23a-03db-4a41-b535-90daa99fade9",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_king_halo.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "893b249d-3289-4736-86ab-09181b446e82",
+      "id_answer": "f2b26095-bcee-44d7-89ae-b47e4a25dcf7",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_mihono_bourbon.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "b13deae1-1321-4bb6-bba6-d3ddb8c68c5b",
+      "id_answer": "891bb4f1-a224-466e-81cd-24f338cde65f",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_biwa_hayahide.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "3165448e-d211-4691-a558-b93b6d21b824",
+      "id_answer": "74668e61-aac0-4b94-b03b-f40034575a35",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_curren_chan.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "d8cb254c-8ad8-4242-bae7-ab5ede33421d",
+      "id_answer": "179817cd-f149-4469-a9e9-daef229fc4b7",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_narita_taishin.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "b91d4466-c3fb-4562-9aa4-ca722d9b42b1",
+      "id_answer": "26e399bf-5755-4286-bf73-80352f243dc8",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_smart_falcon.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "1bd45e69-ca59-4721-90a4-65816f6d6655",
+      "id_answer": "22756f59-8293-427c-810a-921229de2460",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_narita_brian.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "a09db485-c368-4b21-98f4-04b86fda5e38",
+      "id_answer": "e94f70d2-29d5-47a7-8ede-e17a7b428c4a",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_seiun_sky.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "b1590271-2c1e-4d48-bf63-55b8a871c5a3",
+      "id_answer": "3e12dcf6-a393-442f-b1fb-7115d7c2770a",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_hishi_amazon.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "f4085e83-f267-4990-a372-f65160261cd2",
+      "id_answer": "2cfaf07b-b285-4961-afd4-e4b1e99f1d2f",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_fuji_kiseki.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "15e88e91-fe50-493c-b7df-cedae331fe0d",
+      "id_answer": "4e388872-3a50-4be2-8855-c7a6f1db730e",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_gold_city.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "b0b6d99a-436c-4439-8468-1e3248fb8cf8",
+      "id_answer": "711b48aa-e528-4802-82b5-45916d419b83",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_meisho_doto.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "8253799a-b6b8-4de9-bc8b-d5bf6738dc88",
+      "id_answer": "c56d68b8-4ece-4c04-a149-bff72b289cd2",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_eishin_flash.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "a98631d1-1ad3-416a-9530-3b1c6cba6f1d",
+      "id_answer": "9357e5e1-6efd-4652-b1fd-d67b21481f33",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_hishi_akebono.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "b8cb3d3e-dc9f-4e58-8963-579a30bacd46",
+      "id_answer": "a780b900-13e6-45db-a7e5-ce27041e224f",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_agnes_digital.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "7ab0fbc4-099e-401c-82ad-aa9f2e81fd65",
+      "id_answer": "04fb9a18-c6f8-4cb5-963b-9792112ed31e",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_kawakami_princess.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "8fd34e91-df1c-49d5-a1cb-5bb491604ce7",
+      "id_answer": "eec2227a-c791-4627-8b9b-91d255e4308e",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_manhattan_cafe.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "40bcaede-0faa-42f4-b617-b86bc0cc8378",
+      "id_answer": "1096441c-f085-48fa-ba4d-2d91fa19c7b0",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_tosen_jordan.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "45d689bf-900e-4af5-bab5-87091e216a23",
+      "id_answer": "2c4c2840-d31f-4db6-957d-9f02c08be7e6",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_mejiro_dober.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "dc88a647-b360-472c-a5a6-97a87b263272",
+      "id_answer": "d5221f7b-0a47-4557-a5ce-1888b9b76164",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_fine_motion.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "a8a55a8b-74b0-4b4d-b5f5-f9ecee820722",
+      "id_answer": "16e666fb-bc7c-42c6-9b09-afbe8d87e2ee",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_tamamo_cross.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "14bd6883-5b36-446f-90af-c467bc090d26",
+      "id_answer": "eba4e55f-4e1a-45c3-9ba5-7cb40b0c7ef7",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_sakura_chiyono_o.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "3e7e5fa8-aaa6-4767-8cd1-bfb3b5211288",
+      "id_answer": "a0fe8650-4fbb-4a10-a9dd-cdfc3616e45f",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_mejiro_ardan.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "ac7420d5-dcfe-4124-a9a4-c274cd52b8e0",
+      "id_answer": "192d393b-d414-4307-a924-57e326ab67b3",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_admire_vega.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "8a9c1d4f-70cf-42a8-9e69-e87ee4608503",
+      "id_answer": "cbe3bade-c6ea-499d-9ab4-3b2250f47e1c",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_matikane-_tannhauser.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "d3aa0302-0301-4052-be5a-a08446a43622",
+      "id_answer": "47f317c3-dcae-4f01-a5b1-8e3110f87fa9",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_kitasan_black.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "51eef4e6-461a-4f76-b017-b9ad0715e84f",
+      "id_answer": "5e6242f6-4eba-4a05-a8a4-04c7881a1003",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_satono_diamond.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "63908baf-9679-4ce5-994f-2b0cac5ed3cc",
+      "id_answer": "1c366921-aeb4-4ce9-ac0a-c9ab601b5924",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_mejiro_bright.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "e394a52c-8351-4172-88ca-70bc689176e1",
+      "id_answer": "f8f08df4-3831-4980-834c-aadb45a85d7a",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_nishino_flower.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "362a1b7e-5c91-4a33-95fb-c03d33d6a213",
+      "id_answer": "248f69c9-b3d5-45c6-953f-c005abe4f7f0",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_yaeno_muteki.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "bd891c7b-1d80-4e9e-946c-9dd2d223eb8c",
+      "id_answer": "07636b6a-3ca3-404d-9aa5-e8452be1e2ef",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_ines_fujin.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "55d350e0-b8f7-42b1-a84e-e6dd1d5444cf",
+      "id_answer": "21bd4a6c-9512-43f3-867e-2f4c4be7872e",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_mejiro_palmer.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "6cbfc707-5b05-43e8-81b0-deafe15ffcbf",
+      "id_answer": "5629e5cc-54ca-4764-ab7e-adb64a398e1f",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_inari_one.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "bd4de197-7d3f-4316-967f-aaaff4898a78",
+      "id_answer": "9976e64b-497f-4d5e-a6f8-93ba8473920d",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_sweep_tosho.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "f9502c22-1015-4c06-90d8-d1b51b14f8a2",
+      "id_answer": "12f3ee2f-c516-47dc-bc95-af31e24678a4",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_air_shakur.png"
+      ],
+      "audio": ""
+    },
+    {
+      "id": "ee0986bf-13a4-408a-9295-0366719fbfc1",
+      "id_answer": "9e9bf190-a507-4062-bc74-bcb830c4babc",
+      "text": "",
+      "images": [
+        "horse2uma/q_horse2uma_bamboo_memory.png"
+      ],
+      "audio": ""
+    }
+  ],
+  "answers": [
+    {
+      "id": "40349e0b-64e1-4c7f-8c32-59ac5bcc5860",
+      "text": "",
+      "image": "umamusume_racewear/special_week_racewear.png"
+    },
+    {
+      "id": "bbdf6a77-76fd-41b6-bb3e-c76987c1ac23",
+      "text": "",
+      "image": "umamusume_racewear/silence_suzuka_racewear.png"
+    },
+    {
+      "id": "4484406e-83d8-49bf-a0c1-5c2a5b7871a0",
+      "text": "",
+      "image": "umamusume_racewear/tokai_teio_racewear.png"
+    },
+    {
+      "id": "a8417d19-0572-482b-b747-eaaa9c6957f6",
+      "text": "",
+      "image": "umamusume_racewear/maruzensky_racewear.png"
+    },
+    {
+      "id": "ee280785-b957-4bdb-b461-2f8b2b6789c3",
+      "text": "",
+      "image": "umamusume_racewear/oguri_cap_racewear.png"
+    },
+    {
+      "id": "56274671-ef6f-4af8-989c-33e61a73541a",
+      "text": "",
+      "image": "umamusume_racewear/gold_ship_racewear.png"
+    },
+    {
+      "id": "d32c5e88-a4dd-44e3-9b7a-c5a55ee16912",
+      "text": "",
+      "image": "umamusume_racewear/vodka_racewear.png"
+    },
+    {
+      "id": "426d363c-39cb-4fa1-8bfe-942c16e4df15",
+      "text": "",
+      "image": "umamusume_racewear/daiwa_scarlet_racewear.png"
+    },
+    {
+      "id": "dc23645f-a6c8-4325-af64-3be408f3a5ce",
+      "text": "",
+      "image": "umamusume_racewear/taiki_shuttle_racewear.png"
+    },
+    {
+      "id": "595d17a5-e1ed-44eb-8225-3e70577ce93d",
+      "text": "",
+      "image": "umamusume_racewear/grass_wonder_racewear.png"
+    },
+    {
+      "id": "c18499b3-7ff4-4801-b951-35e69452a12c",
+      "text": "",
+      "image": "umamusume_racewear/mejiro_mcqueen_racewear.png"
+    },
+    {
+      "id": "4373352f-e2f6-4595-b59e-3a7981c38aae",
+      "text": "",
+      "image": "umamusume_racewear/el_condor_pasa_racewear.png"
+    },
+    {
+      "id": "a304343b-536c-4290-b190-55c1bb018f61",
+      "text": "",
+      "image": "umamusume_racewear/tm_opera_o_racewear.png"
+    },
+    {
+      "id": "0fbaaa65-159c-446d-84fc-e7d18a691f03",
+      "text": "",
+      "image": "umamusume_racewear/symboli_rudolf_racewear.png"
+    },
+    {
+      "id": "4bc755a3-4c35-4f75-8887-99eb09f9fef4",
+      "text": "",
+      "image": "umamusume_racewear/air_groove_racewear.png"
+    },
+    {
+      "id": "21a1fe3c-d175-4d29-a486-f1cd6b4f7bb2",
+      "text": "",
+      "image": "umamusume_racewear/mayano_top_gun_racewear.png"
+    },
+    {
+      "id": "3d5900cf-81da-4298-8112-a0e0863c9e0f",
+      "text": "",
+      "image": "umamusume_racewear/mejiro_ryan_racewear.png"
+    },
+    {
+      "id": "2449eabd-c765-4c5c-bf16-e069aabd105f",
+      "text": "",
+      "image": "umamusume_racewear/rice_shower_racewear.png"
+    },
+    {
+      "id": "df8d89cc-4131-46b5-a2fa-b781a0fe858f",
+      "text": "",
+      "image": "umamusume_racewear/agnes_tachyon_racewear.png"
+    },
+    {
+      "id": "da1bd103-41b5-42dd-8bee-b0315f1e1f88",
+      "text": "",
+      "image": "umamusume_racewear/winning_ticket_racewear.png"
+    },
+    {
+      "id": "17080075-1d97-4f6c-9bc9-73499ae41839",
+      "text": "",
+      "image": "umamusume_racewear/sakura_bakushin_o_racewear.png"
+    },
+    {
+      "id": "639f7ba4-7422-4e76-9a8d-60532d15d4c4",
+      "text": "",
+      "image": "umamusume_racewear/super_creek_racewear.png"
+    },
+    {
+      "id": "21cb4774-3aed-4d12-b63c-2792a9df195c",
+      "text": "",
+      "image": "umamusume_racewear/haru_urara_racewear.png"
+    },
+    {
+      "id": "aebbb598-eed5-489c-8cae-a957d351a213",
+      "text": "",
+      "image": "umamusume_racewear/matikane-_fukukitaru_racewear.png"
+    },
+    {
+      "id": "b6b9a3c5-5a3f-4de3-abbf-779b9ecb7867",
+      "text": "",
+      "image": "umamusume_racewear/nice_nature_racewear.png"
+    },
+    {
+      "id": "d353a23a-03db-4a41-b535-90daa99fade9",
+      "text": "",
+      "image": "umamusume_racewear/king_halo_racewear.png"
+    },
+    {
+      "id": "f2b26095-bcee-44d7-89ae-b47e4a25dcf7",
+      "text": "",
+      "image": "umamusume_racewear/mihono_bourbon_racewear.png"
+    },
+    {
+      "id": "891bb4f1-a224-466e-81cd-24f338cde65f",
+      "text": "",
+      "image": "umamusume_racewear/biwa_hayahide_racewear.png"
+    },
+    {
+      "id": "74668e61-aac0-4b94-b03b-f40034575a35",
+      "text": "",
+      "image": "umamusume_racewear/curren_chan_racewear.png"
+    },
+    {
+      "id": "179817cd-f149-4469-a9e9-daef229fc4b7",
+      "text": "",
+      "image": "umamusume_racewear/narita_taishin_racewear.png"
+    },
+    {
+      "id": "26e399bf-5755-4286-bf73-80352f243dc8",
+      "text": "",
+      "image": "umamusume_racewear/smart_falcon_racewear.png"
+    },
+    {
+      "id": "22756f59-8293-427c-810a-921229de2460",
+      "text": "",
+      "image": "umamusume_racewear/narita_brian_racewear.png"
+    },
+    {
+      "id": "e94f70d2-29d5-47a7-8ede-e17a7b428c4a",
+      "text": "",
+      "image": "umamusume_racewear/seiun_sky_racewear.png"
+    },
+    {
+      "id": "3e12dcf6-a393-442f-b1fb-7115d7c2770a",
+      "text": "",
+      "image": "umamusume_racewear/hishi_amazon_racewear.png"
+    },
+    {
+      "id": "2cfaf07b-b285-4961-afd4-e4b1e99f1d2f",
+      "text": "",
+      "image": "umamusume_racewear/fuji_kiseki_racewear.png"
+    },
+    {
+      "id": "4e388872-3a50-4be2-8855-c7a6f1db730e",
+      "text": "",
+      "image": "umamusume_racewear/gold_city_racewear.png"
+    },
+    {
+      "id": "711b48aa-e528-4802-82b5-45916d419b83",
+      "text": "",
+      "image": "umamusume_racewear/meisho_doto_racewear.png"
+    },
+    {
+      "id": "c56d68b8-4ece-4c04-a149-bff72b289cd2",
+      "text": "",
+      "image": "umamusume_racewear/eishin_flash_racewear.png"
+    },
+    {
+      "id": "9357e5e1-6efd-4652-b1fd-d67b21481f33",
+      "text": "",
+      "image": "umamusume_racewear/hishi_akebono_racewear.png"
+    },
+    {
+      "id": "a780b900-13e6-45db-a7e5-ce27041e224f",
+      "text": "",
+      "image": "umamusume_racewear/agnes_digital_racewear.png"
+    },
+    {
+      "id": "04fb9a18-c6f8-4cb5-963b-9792112ed31e",
+      "text": "",
+      "image": "umamusume_racewear/kawakami_princess_racewear.png"
+    },
+    {
+      "id": "eec2227a-c791-4627-8b9b-91d255e4308e",
+      "text": "",
+      "image": "umamusume_racewear/manhattan_cafe_racewear.png"
+    },
+    {
+      "id": "1096441c-f085-48fa-ba4d-2d91fa19c7b0",
+      "text": "",
+      "image": "umamusume_racewear/tosen_jordan_racewear.png"
+    },
+    {
+      "id": "2c4c2840-d31f-4db6-957d-9f02c08be7e6",
+      "text": "",
+      "image": "umamusume_racewear/mejiro_dober_racewear.png"
+    },
+    {
+      "id": "d5221f7b-0a47-4557-a5ce-1888b9b76164",
+      "text": "",
+      "image": "umamusume_racewear/fine_motion_racewear.png"
+    },
+    {
+      "id": "16e666fb-bc7c-42c6-9b09-afbe8d87e2ee",
+      "text": "",
+      "image": "umamusume_racewear/tamamo_cross_racewear.png"
+    },
+    {
+      "id": "eba4e55f-4e1a-45c3-9ba5-7cb40b0c7ef7",
+      "text": "",
+      "image": "umamusume_racewear/sakura_chiyono_o_racewear.png"
+    },
+    {
+      "id": "a0fe8650-4fbb-4a10-a9dd-cdfc3616e45f",
+      "text": "",
+      "image": "umamusume_racewear/mejiro_ardan_racewear.png"
+    },
+    {
+      "id": "192d393b-d414-4307-a924-57e326ab67b3",
+      "text": "",
+      "image": "umamusume_racewear/admire_vega_racewear.png"
+    },
+    {
+      "id": "cbe3bade-c6ea-499d-9ab4-3b2250f47e1c",
+      "text": "",
+      "image": "umamusume_racewear/matikane-_tannhauser_racewear.png"
+    },
+    {
+      "id": "47f317c3-dcae-4f01-a5b1-8e3110f87fa9",
+      "text": "",
+      "image": "umamusume_racewear/kitasan_black_racewear.png"
+    },
+    {
+      "id": "5e6242f6-4eba-4a05-a8a4-04c7881a1003",
+      "text": "",
+      "image": "umamusume_racewear/satono_diamond_racewear.png"
+    },
+    {
+      "id": "1c366921-aeb4-4ce9-ac0a-c9ab601b5924",
+      "text": "",
+      "image": "umamusume_racewear/mejiro_bright_racewear.png"
+    },
+    {
+      "id": "f8f08df4-3831-4980-834c-aadb45a85d7a",
+      "text": "",
+      "image": "umamusume_racewear/nishino_flower_racewear.png"
+    },
+    {
+      "id": "248f69c9-b3d5-45c6-953f-c005abe4f7f0",
+      "text": "",
+      "image": "umamusume_racewear/yaeno_muteki_racewear.png"
+    },
+    {
+      "id": "07636b6a-3ca3-404d-9aa5-e8452be1e2ef",
+      "text": "",
+      "image": "umamusume_racewear/ines_fujin_racewear.png"
+    },
+    {
+      "id": "21bd4a6c-9512-43f3-867e-2f4c4be7872e",
+      "text": "",
+      "image": "umamusume_racewear/mejiro_palmer_racewear.png"
+    },
+    {
+      "id": "5629e5cc-54ca-4764-ab7e-adb64a398e1f",
+      "text": "",
+      "image": "umamusume_racewear/inari_one_racewear.png"
+    },
+    {
+      "id": "9976e64b-497f-4d5e-a6f8-93ba8473920d",
+      "text": "",
+      "image": "umamusume_racewear/sweep_tosho_racewear.png"
+    },
+    {
+      "id": "12f3ee2f-c516-47dc-bc95-af31e24678a4",
+      "text": "",
+      "image": "umamusume_racewear/air_shakur_racewear.png"
+    },
+    {
+      "id": "9e9bf190-a507-4062-bc74-bcb830c4babc",
+      "text": "",
+      "image": "umamusume_racewear/bamboo_memory_racewear.png"
+    }
+  ]
+}
