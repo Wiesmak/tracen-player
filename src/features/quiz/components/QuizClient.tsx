@@ -20,17 +20,17 @@ const QuizClient = ({id}: QuizClientProps) => {
 
     if (error || !quiz) {
         return <div className="flex flex-col items-center justify-center gap-5 p-5">
-            Error!
+            <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/assets/ui/fail.webp`} alt="failed" width={640} height={622} />
         </div>
     }
 
-    return <ViewTransition name={`quiz-${quiz.id}`} share="morph">
+    return (
         <div
             className="flex flex-col items-center justify-center gap-5 p-5 border rounded-lg shadow-md w-full max-w-xl">
             <QuizInfoModal isOpen={!isCurrentQuiz} quizId={quiz.id} {...quiz} />
             <QuizPlayer quiz={quiz}/>
         </div>
-    </ViewTransition>
+    )
 }
 
 export default QuizClient

@@ -6,7 +6,7 @@ export default function Home() {
         <ViewTransition
             enter={{'fade-white': 'fade-white-enter', default: 'none'}}
             exit={{'fade-white': 'fade-white-exit', default: 'none'}}
-        >
+            default="none">
             <QuizCatalog/>
         </ViewTransition>
     )
