@@ -21,7 +21,7 @@
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "react-redux": "^9.3.0",
-    "react-simple-keyboard": "^3.8.219"
+    "react-simple-keyboard": "^3.8.221"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
