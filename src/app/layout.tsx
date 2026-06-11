@@ -24,6 +24,9 @@ const kakugoLarge = localFont({
 export const metadata: Metadata = {
   title: "Tracen Player",
   description: "Tracen Academy quiz player",
+  appleWebApp: {
+    title: "Tracen Player",
+  },
 }
 
 export default function RootLayout({
