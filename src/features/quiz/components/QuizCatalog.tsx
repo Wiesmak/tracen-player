@@ -1,9 +1,9 @@
 "use client"
 
+import Image from "next/image"
 import type Quiz from "@/entities/quiz"
 import QuizItem from "@/features/quiz/components/QuizItem"
 import { useGetQuizzesQuery } from "@/services/quiz-api"
-import Image from "next/image"
 
 const QuizCatalog = () => {
     const {data, error, isLoading} = useGetQuizzesQuery()
