@@ -7,7 +7,7 @@
       "dependencies": {
         "@reduxjs/toolkit": "^2.12.0",
         "@types/lodash": "^4.17.24",
-        "@wiesmak/umaui-react": "^0.0.3",
+        "@wiesmak/umaui-react": "^0.1.0",
         "lodash": "^4.18.1",
         "next": "16.2.7",
         "react": "19.2.7",
@@ -492,7 +492,7 @@
 
     "@webcontainer/env": ["@webcontainer/env@1.1.1", "", {}, "sha512-6aN99yL695Hi9SuIk1oC88l9o0gmxL1nGWWQ/kNy81HigJ0FoaoTXpytCj6ItzgyCEwA9kF1wixsTuv5cjsgng=="],
 
-    "@wiesmak/umaui-react": ["@wiesmak/umaui-react@0.0.3", "", { "peerDependencies": { "react": "^19.2.6", "react-dom": "^19.2.6" } }, "sha512-WJaKEJbV+O84ldi3JiMvt6SnwzmQ/UJc1qj3pXoiCGF82sL8TuXJD/xpMJc44kuWiVsrepb07a6N/PrCiH+eEQ=="],
+    "@wiesmak/umaui-react": ["@wiesmak/umaui-react@0.1.0", "", { "peerDependencies": { "react": "^19.2.6", "react-dom": "^19.2.6" } }, "sha512-pOe2hyOnq7lddQ4JZLVq0lRszlXAH+KCvGxXGD+KB1bAzH5XDa/yiI6IHaZlO9jiV0WNEMnjJum2kq0YultrKQ=="],
 
     "@zeit/schemas": ["@zeit/schemas@2.36.0", "", {}, "sha512-7kjMwcChYEzMKjeex9ZFXkt1AyNov9R5HZtjBKVsmVpw7pa7ZtlCGvCBC2vnnXctaYN+aRI61HjIqeetZW5ROg=="],
 
