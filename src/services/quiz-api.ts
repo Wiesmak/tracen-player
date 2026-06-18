@@ -10,6 +10,9 @@ const quizApi = createApi({
         getQuizzes: builder.query<Quiz[], void>({
             query: () => '/quizzes.json',
             transformResponse: (response: unknown): Quiz[] => {
+                // const res = response as Quiz[]
+                // return [...res, ...res, ...res, ...res, ...res, ...res]
+
                 return response as Quiz[]
             },
         }),

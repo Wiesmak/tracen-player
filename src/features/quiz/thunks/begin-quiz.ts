@@ -4,15 +4,15 @@ import { startQuiz } from "@/features/quiz/slice"
 import quizApi from "@/services/quiz-api"
 import type { AppThunk } from "@/store/store"
 
-const beginQuiz = () : AppThunk => (
+const beginQuiz = () : AppThunk => async (
     dispatch,
     getState
 ) => {
     const state = getState()
     const { quiz: quizId, mode } = state.quizState
 
-    const quizCache = quizApi.endpoints.getQuizById.select(quizId)(state)
-    const quiz = quizCache.data
+    const result = await dispatch(quizApi.endpoints.getQuizById.initiate(quizId))
+    const quiz = result.data
     if (!quiz) return
 
     const quizLength = QuizConfig.QuizLength

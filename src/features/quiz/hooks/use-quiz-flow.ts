@@ -38,7 +38,7 @@ const useQuizFlow = () => {
 
     const handleQuit = () => {
         // dispatch(endQuiz())
-        router.push("/")
+        router.push("/quiz/list", {transitionTypes: ['fade-white']})
     }
 
     const handleClearState = () => {

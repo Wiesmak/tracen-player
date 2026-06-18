@@ -3,6 +3,7 @@ import type { KeyboardReactInterface } from "react-simple-keyboard"
 import Keyboard from "react-simple-keyboard"
 import "react-simple-keyboard/build/css/index.css"
 import useAnswers from "@/features/quiz/hooks/use-answers"
+import { Input } from "@wiesmak/umaui-react"
 
 const AnswerSelector = () => {
     const keyboard = useRef<KeyboardReactInterface>(null)
@@ -19,9 +20,9 @@ const AnswerSelector = () => {
         else setCapital(false)
     }
 
-    return <>
-        <input type={"text"} value={selectorInput} placeholder={"Tap on the virtual keyboard"} className="text-center" readOnly />
-        <Keyboard
+    return <div className="w-3/5 flex flex-col items-center justify-center gap-5">
+        <Input type={"text"} value={selectorInput} />
+        <span className="w-full"><Keyboard
             // biome-ignore lint/suspicious/noAssignInExpressions: Library wants ref to be set like this
             keyboardRef={r => (keyboard.current = r)}
             layout={{
@@ -46,8 +47,8 @@ const AnswerSelector = () => {
             mergeDisplay={true}
             onChange={handleSelectorInputChange}
             onKeyPress={onKeyPress}
-        />
-    </>
+        /></span>
+    </div>
 }
 
 export default AnswerSelector

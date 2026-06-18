@@ -1,0 +1,100 @@
+.results-header {
+    max-width: 70%;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 6rem;
+    line-height: 6rem;
+    font-weight: 600;
+    background: linear-gradient(0deg, #b6fa2c, #f6fff2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+}
+
+.results-header::after {
+    background: none;
+    content: attr(data-text);
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 6rem;
+    line-height: 6rem;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    position: absolute;
+    text-shadow: 0px 0px 5px #339440, 4px 4px 10px #339440;
+}
+
+.fade-border {
+    border: 4px solid;
+    border-right: none;
+    border-left: none;
+    color: #7a4924;
+    /*text-shadow: 0 0 5px rgba(0, 0, 0, 0.5), 0 0 10px rgba(0, 0, 0, 0.5);*/
+    border-image: linear-gradient(
+            to right,
+            transparent 0%,
+            rgb(200 200 200 / 0.5) 5%,
+            rgba(200, 200, 200, 0.8) 50%,
+            rgba(200, 200, 200, 0.5) 95%,
+            transparent 100%
+    ) 1;
+    background: linear-gradient(
+            to right,
+            transparent 0%,
+            rgb(255 255 255 / 0.3) 20%,
+            rgb(255 255 255 / 0.3) 80%,
+            transparent 100%
+    );
+}
+
+.speech-bubble {
+    position: relative;
+    background: #fafafb;
+    width: 30rem;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    border: 3px solid #cccbc7;
+    color: #7a4924;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.speech-bubble > .title {
+    position: absolute;
+    top: -1.7rem;
+    left: -0.2rem;
+    z-index: 2;
+    color: #7a4924;
+    background: #cccbc7;
+    padding: 0.2rem 1.5rem;
+    border-radius: 32px;
+    font-weight: 900;
+    -webkit-text-stroke: 1px #fafafb;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: transparent #fafafb;
+    border-width: 10px 15px 10px 0;
+    top: 30%;
+    left: -15px;
+    margin-top: -10px;
+    filter: drop-shadow(-3px 0 0 #cccbc7);
+}
+
+@keyframes mount-fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: mount-fade-in 700ms ease-in-out both;
+}

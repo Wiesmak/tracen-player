@@ -1,0 +1,64 @@
+.umabox {
+    border: 6px solid white;
+    border-radius: 1.5rem;
+    position: relative;
+    background: white;
+    transition: transform 0.15s;
+    @media (width <= 64rem){
+        border: 3px solid white;
+        border-radius: 1rem;
+    }
+    &:enabled:active {
+        transform: scale(0.9);
+    }
+}
+
+.umabox::before {
+    content: "  ";
+    position: absolute;
+    top: -8px;
+    left: -8px;
+    right: -8px;
+    bottom: -14px;
+    border-radius: 1.5rem;
+    background: linear-gradient(180deg, rgb(195, 195, 213) 0%, rgb(89, 84, 109) 100%);
+    z-index: -1;
+    @media (width <= 64rem){
+        top: -4px;
+        left: -4px;
+        right: -4px;
+        bottom: -7px;
+        border-radius: 1rem;
+    }
+}
+
+.umabox img {
+    mask-image: linear-gradient(180deg, black 0%, black 98%, transparent 100%);
+}
+
+.umabox > div {
+    border: 2px solid #e7e7ef;
+    border-radius: 1.5rem;
+    background-color: white;
+    @media (width <= 64rem){
+        border: 1px solid #e7e7ef;
+        border-radius: 1rem;
+    }
+}
+
+.umabox span {
+    color: #625D7D;
+}
+
+.diff-selector-grid {
+    justify-items: center;
+}
+
+.diff-selector-grid > span {
+    grid-row: 1;
+    width: 12rem;
+}
+
+.diff-selector-grid > label {
+    grid-row: 2;
+}
