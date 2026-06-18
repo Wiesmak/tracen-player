@@ -32,6 +32,8 @@ jobs:
 
       - name: Install dependencies
         run: bun install
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Transpile input files
         run: bun run generate-data
