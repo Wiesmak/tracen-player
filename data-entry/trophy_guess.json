@@ -3,14 +3,14 @@
     "id": "trophies",
     "title": "Zgadnij umę po trofeum",
     "image": "umahalf.png",
-    "description": "Guess Umamusume based on their trophy!",
+    "description": "Rozpoznaj umamusume po ich trofeach.",
     "type": "uma"
   },
   "questions": [
     {
       "id": "001",
       "id_answer": "019",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/agnes_digital_trophy.png"
       ]
@@ -18,7 +18,7 @@
     {
       "id": "002",
       "id_answer": "032",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/agnes_tachyon_trophy.png"
       ]
@@ -26,7 +26,7 @@
     {
       "id": "003",
       "id_answer": "023",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/biwa_hayahide_trophy.png"
       ]
@@ -34,7 +34,7 @@
     {
       "id": "004",
       "id_answer": "038",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/curren_chan_trophy.png"
       ]
@@ -42,7 +42,7 @@
     {
       "id": "005",
       "id_answer": "009",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/daiwa_scarlet_trophy.png"
       ]
@@ -50,7 +50,7 @@
     {
       "id": "006",
       "id_answer": "037",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/eishin_flash_trophy.png"
       ]
@@ -58,7 +58,7 @@
     {
       "id": "007",
       "id_answer": "014",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/el_condor_pasa_trophy.png"
       ]
@@ -66,7 +66,7 @@
     {
       "id": "008",
       "id_answer": "007",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/fuji_kiseki_trophy.png"
       ]
@@ -74,7 +74,7 @@
     {
       "id": "009",
       "id_answer": "040",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/gold_city_trophy.png"
       ]
@@ -82,7 +82,7 @@
     {
       "id": "010",
       "id_answer": "006",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/gold_ship_trophy.png"
       ]
@@ -90,7 +90,7 @@
     {
       "id": "011",
       "id_answer": "011",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/grass_wonder_trophy.png"
       ]
@@ -98,7 +98,7 @@
     {
       "id": "012",
       "id_answer": "012",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/hishi_amazon_trophy.png"
       ]
@@ -106,7 +106,7 @@
     {
       "id": "013",
       "id_answer": "061",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/king_halo_trophy.png"
       ]
@@ -114,7 +114,7 @@
     {
       "id": "014",
       "id_answer": "004",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/maruzensky_trophy.png"
       ]
@@ -122,7 +122,7 @@
     {
       "id": "015",
       "id_answer": "056",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/matikanefukukitaru_trophy.png"
       ]
@@ -130,7 +130,7 @@
     {
       "id": "016",
       "id_answer": "024",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/mayano_top_gun_trophy.png"
       ]
@@ -138,7 +138,7 @@
     {
       "id": "017",
       "id_answer": "058",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/meisho_doto_trophy.png"
       ]
@@ -146,7 +146,7 @@
     {
       "id": "018",
       "id_answer": "074",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/mejiro_bright_trophy.png"
       ]
@@ -154,7 +154,7 @@
     {
       "id": "019",
       "id_answer": "059",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/mejiro_dober_trophy.png"
       ]
@@ -162,7 +162,7 @@
     {
       "id": "020",
       "id_answer": "013",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/mejiro_mcqueen_anime_trophy.png"
       ]
@@ -170,7 +170,7 @@
     {
       "id": "021",
       "id_answer": "013",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/mejiro_mcqueen_trophy.png"
       ]
@@ -178,7 +178,7 @@
     {
       "id": "022",
       "id_answer": "027",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/mejiro_ryan_trophy.png"
       ]
@@ -186,7 +186,7 @@
     {
       "id": "023",
       "id_answer": "026",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/mihono_bourbon_trophy.png"
       ]
@@ -194,7 +194,7 @@
     {
       "id": "024",
       "id_answer": "016",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/narita_brian_trophy.png"
       ]
@@ -202,7 +202,7 @@
     {
       "id": "025",
       "id_answer": "050",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/narita_taishin_trophy.png"
       ]
@@ -210,7 +210,7 @@
     {
       "id": "026",
       "id_answer": "060",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/nice_nature_trophy.png"
       ]
@@ -218,7 +218,7 @@
     {
       "id": "027",
       "id_answer": "005",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/oguri_cap_trophy.png"
       ]
@@ -226,7 +226,7 @@
     {
       "id": "028",
       "id_answer": "030",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/rice_shower_trophy.png"
       ]
@@ -234,7 +234,7 @@
     {
       "id": "029",
       "id_answer": "041",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/sakura_bakushin_o_trophy.png"
       ]
@@ -242,7 +242,7 @@
     {
       "id": "030",
       "id_answer": "020",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/seiun_sky_trophy.png"
       ]
@@ -250,7 +250,7 @@
     {
       "id": "031",
       "id_answer": "045",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/super_creek_trophy.png"
       ]
@@ -258,7 +258,7 @@
     {
       "id": "032",
       "id_answer": "017",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/symboli_rudolf_trophy.png"
       ]
@@ -266,7 +266,7 @@
     {
       "id": "033",
       "id_answer": "010",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/taiki_shuttle_trophy.png"
       ]
@@ -274,7 +274,7 @@
     {
       "id": "034",
       "id_answer": "021",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/tamamo_cross_trophy.png"
       ]
@@ -282,7 +282,7 @@
     {
       "id": "035",
       "id_answer": "015",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/tm_opera_o_trophy.png"
       ]
@@ -290,7 +290,7 @@
     {
       "id": "036",
       "id_answer": "003",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/tokai_teio_trophy.png"
       ]
@@ -298,7 +298,7 @@
     {
       "id": "037",
       "id_answer": "008",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/vodka_trophy.png"
       ]
@@ -306,7 +306,7 @@
     {
       "id": "038",
       "id_answer": "035",
-      "text": "",
+      "text": "Czyje to trofeum?",
       "images": [
         "trofea/winning_ticket_trophy.png"
       ]

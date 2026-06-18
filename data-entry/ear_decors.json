@@ -3,14 +3,14 @@
     "id": "ear_decors",
     "title": "Zgadnij umę po ozdobie",
     "image": "umahalf.png",
-    "description": "Guess Umamusume based on their ear decors!",
+    "description": "Przyporządkuj dekorację uszu do odpowiedniej umamusume.",
     "type": "uma"
   },
   "questions": [
     {
       "id": "001",
       "id_answer": "001",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/special_week_eardecor.png"
       ]
@@ -18,7 +18,7 @@
     {
       "id": "002",
       "id_answer": "002",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/silence_suzuka_eardecor.png"
       ]
@@ -26,7 +26,7 @@
     {
       "id": "003",
       "id_answer": "003",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/tokai_teio_eardecor.png"
       ]
@@ -34,7 +34,7 @@
     {
       "id": "004",
       "id_answer": "004",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/maruzensky_eardecor.png"
       ]
@@ -42,7 +42,7 @@
     {
       "id": "005",
       "id_answer": "007",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/fuji_kiseki_eardecor.png"
       ]
@@ -50,7 +50,7 @@
     {
       "id": "006",
       "id_answer": "005",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/oguri_cap_eardecor.png"
       ]
@@ -58,7 +58,7 @@
     {
       "id": "007",
       "id_answer": "006",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/gold_ship_eardecor.png"
       ]
@@ -66,7 +66,7 @@
     {
       "id": "008",
       "id_answer": "008",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/vodka_eardecor.png"
       ]
@@ -74,7 +74,7 @@
     {
       "id": "009",
       "id_answer": "009",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/daiwa_scarlet_eardecor.png"
       ]
@@ -82,7 +82,7 @@
     {
       "id": "010",
       "id_answer": "010",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/taiki_shuttle_eardecor.png"
       ]
@@ -90,7 +90,7 @@
     {
       "id": "011",
       "id_answer": "011",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/grass_wonder_eardecor.png"
       ]
@@ -98,7 +98,7 @@
     {
       "id": "012",
       "id_answer": "012",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/hishi_amazon_eardecor.png"
       ]
@@ -106,7 +106,7 @@
     {
       "id": "013",
       "id_answer": "013",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/mejiro_mcqueen_eardecor.png"
       ]
@@ -114,7 +114,7 @@
     {
       "id": "014",
       "id_answer": "014",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/el_condor_pasa_eardecor.png"
       ]
@@ -122,7 +122,7 @@
     {
       "id": "015",
       "id_answer": "015",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/tm_opera_o_eardecor.png"
       ]
@@ -130,7 +130,7 @@
     {
       "id": "016",
       "id_answer": "016",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/narita_brian_eardecor.png"
       ]
@@ -138,7 +138,7 @@
     {
       "id": "017",
       "id_answer": "017",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/symboli_rudolf_eardecor.png"
       ]
@@ -146,7 +146,7 @@
     {
       "id": "018",
       "id_answer": "020",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/seiun_sky_eardecor.png"
       ]
@@ -154,7 +154,7 @@
     {
       "id": "019",
       "id_answer": "021",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/tamamo_cross_eardecor.png"
       ]
@@ -162,7 +162,7 @@
     {
       "id": "020",
       "id_answer": "022",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/fine_motion_eardecor.png"
       ]
@@ -170,7 +170,7 @@
     {
       "id": "021",
       "id_answer": "023",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/biwa_hayahide_eardecor.png"
       ]
@@ -178,7 +178,7 @@
     {
       "id": "022",
       "id_answer": "070",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/sirius_symboli_eardecor.png"
       ]
@@ -186,7 +186,7 @@
     {
       "id": "023",
       "id_answer": "032",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/agnes_tachyon_eardecor.png"
       ]
@@ -194,7 +194,7 @@
     {
       "id": "024",
       "id_answer": "025",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/manhattan_cafe_eardecor.png"
       ]
@@ -202,7 +202,7 @@
     {
       "id": "025",
       "id_answer": "024",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/mayano_top_gun_eardecor.png"
       ]
@@ -210,7 +210,7 @@
     {
       "id": "026",
       "id_answer": "026",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/mihono_bourbon_eardecor.png"
       ]
@@ -218,7 +218,7 @@
     {
       "id": "027",
       "id_answer": "037",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/eishin_flash_eardecor.png"
       ]
@@ -226,7 +226,7 @@
     {
       "id": "028",
       "id_answer": "038",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/curren_chan_eardecor.png"
       ]
@@ -234,7 +234,7 @@
     {
       "id": "029",
       "id_answer": "028",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/hishi_akebono_eardecor.png"
       ]
@@ -242,7 +242,7 @@
     {
       "id": "030",
       "id_answer": "045",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/super_creek_eardecor.png"
       ]
@@ -250,7 +250,7 @@
     {
       "id": "031",
       "id_answer": "052",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/haru_urara_eardecor.png"
       ]
@@ -258,7 +258,7 @@
     {
       "id": "032",
       "id_answer": "046",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/smart_falcon_eardecor.png"
       ]
@@ -266,7 +266,7 @@
     {
       "id": "033",
       "id_answer": "035",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/winning_ticket_eardecor.png"
       ]
@@ -274,7 +274,7 @@
     {
       "id": "034",
       "id_answer": "050",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/narita_taishin_eardecor.png"
       ]
@@ -282,7 +282,7 @@
     {
       "id": "035",
       "id_answer": "051",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/nishino_flower_eardecor.png"
       ]
@@ -290,7 +290,7 @@
     {
       "id": "036",
       "id_answer": "039",
-      "text": "",
+      "text": "Do której umamusume należy ta ozdoba?",
       "images": [
         "ear_decors/kawakami_princess_eardecor.png"
       ]

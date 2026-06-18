@@ -3,7 +3,7 @@ import { PassingScore, QuizLength, ScoringAlgorithm } from "@/features/quiz/util
 const QuizConfig = {
     ScoringAlgorithm: ScoringAlgorithm.WithPartials,
     PassingScore: PassingScore.Default,
-    QuizLength: QuizLength.Demo,
+    QuizLength: QuizLength.Default,
 }
 
 export default QuizConfig
