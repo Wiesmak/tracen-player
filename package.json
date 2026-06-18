@@ -16,7 +16,7 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.12.0",
     "@types/lodash": "^4.17.24",
-    "@wiesmak/umaui-react": "^0.0.3",
+    "@wiesmak/umaui-react": "^0.1.0",
     "lodash": "^4.18.1",
     "next": "16.2.7",
     "react": "19.2.7",
