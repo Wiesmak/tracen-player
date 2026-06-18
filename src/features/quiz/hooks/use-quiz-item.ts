@@ -17,7 +17,7 @@ const useQuizItem = (quizId: string) => {
         closeModal()
         handleClearState()
         handleStart(quizId, mode)
-    }, [closeModal, handleClearState, handleStart, quizId])
+    }, [closeModal, handleClearState, handleStart, quizId, mode])
 
     return { isOpen, openModal, closeModal, startQuiz, selectEasyMode, selectHardMode, isEasyMode, isHardMode }
 }

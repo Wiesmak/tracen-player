@@ -49,3 +49,16 @@
 .umabox span {
     color: #625D7D;
 }
+
+.diff-selector-grid {
+    justify-items: center;
+}
+
+.diff-selector-grid > span {
+    grid-row: 1;
+    width: 12rem;
+}
+
+.diff-selector-grid > label {
+    grid-row: 2;
+}

@@ -1,0 +1,3 @@
+.answers-grid {
+    mask-image: linear-gradient(to bottom, transparent 0%, black 48px, black calc(100% - 48px), transparent 100%);
+}

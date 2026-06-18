@@ -1,7 +1,7 @@
 import { ViewTransition } from "react"
 import QuizCatalog from "@/features/quiz/components/QuizCatalog"
 
-export default function Home() {
+export default function QuizListPage() {
     return (
         <ViewTransition
             enter={{'fade-white': 'fade-white-enter', default: 'none'}}

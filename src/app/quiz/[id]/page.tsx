@@ -8,7 +8,7 @@ import styles from './quiz.module.css'
 export default function QuizPage({ params }: { params: Promise<{ id: string }> }) {
     const { id } = use(params)
 
-    return <div className={`flex flex-col items-center justify-center gap-5 p-5 ${styles['fade-in']}`}>
+    return <div className={`flex flex-col items-center justify-center gap-5 p-5 ${styles['fade-in']} h-screen w-screen`}>
         <QuizClient id={id} />
     </div>
 }

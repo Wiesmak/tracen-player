@@ -25,9 +25,7 @@ const QuizClient = ({id}: QuizClientProps) => {
     }
 
     return (
-        <div
-            className="flex flex-col items-center justify-center gap-5 p-5 w-full">
-            <QuizInfoModal isOpen={!isCurrentQuiz} quizId={quiz.id} {...quiz} />
+        <div className="flex flex-col items-center justify-center gap-12 p-5 w-full h-full">
             <QuizPlayer quiz={quiz}/>
         </div>
     )

@@ -1,10 +1,10 @@
 "use client"
 
-import { Button, Modal, Radio } from "@wiesmak/umaui-react"
-import type Quiz from "@/entities/quiz"
-import styles from "./quiz-item.module.css"
+import { Button, Heading, Modal, Radio } from "@wiesmak/umaui-react"
 import Link from "next/link"
+import type Quiz from "@/entities/quiz"
 import useQuizItem from "@/features/quiz/hooks/use-quiz-item"
+import styles from "./quiz-item.module.css"
 
 interface QuizItemProps {
     quiz: Quiz
@@ -39,14 +39,29 @@ const QuizItem = ({quiz}: QuizItemProps) => {
                        <Button onClick={startQuiz} primary>Start</Button>
                    </Link>
                </div>}
+               className="!p-2"
                open={isOpen}
                closeOnClickOutside>
-            <p className="max-w-2xl">
-                {quiz.description}
-            </p>
-            <div className="flex flex-row items-center justify-center gap-2 mt-4">
-                <Radio caption="EASY" value="EASY" checked={isEasyMode()} onChange={selectEasyMode}/>
-                <Radio caption="HARD" value="HARD" checked={isHardMode()} onChange={selectHardMode}/>
+            <div className="bg-[#f1f1f1] rounded-lg p-4">
+                <Heading className="text-white font-semibold">Opis Quizu</Heading>
+                <p className="max-w-3/4 text-[#7a4924] font-semibold p-2 pb-8" style={{color: "#7a4924"}}>
+                    {quiz.description}
+                </p>
+                <Heading className="text-white font-semibold">Zasady gry</Heading>
+                <p className="max-w-3/4 text-[#7a4924] font-semibold p-2 pb-8" style={{color: "#7a4924"}}>
+                    Tyrtum pyrtum zasady
+                </p>
+                <Heading className="text-white font-semibold">Tryb gry</Heading>
+                <div className={`grid grid-cols-2 items-center justify-center justify-items-center gap-2 mt-4 ${styles['diff-selector-grid']}`}>
+                    <span onClick={() => selectEasyMode()}>
+                        <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/assets/ui/cm_easy.png`} alt={quiz.title} />
+                    </span>
+                    <Radio caption="OPEN" value="EASY" checked={isEasyMode()} onChange={() => selectEasyMode()}/>
+                    <span onClick={() =>selectHardMode()}>
+                        <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/assets/ui/cm_hard.png`} alt={quiz.title} />
+                    </span>
+                    <Radio caption="GRADED" value="HARD" checked={isHardMode()} onChange={() => selectHardMode()}/>
+                </div>
             </div>
         </Modal>
     </>

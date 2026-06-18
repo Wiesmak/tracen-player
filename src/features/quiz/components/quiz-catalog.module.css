@@ -1,0 +1,83 @@
+.speech-bubble {
+    /* triangle dimension */
+    --a: 45deg; /* angle */
+    --h: 1em; /* height */
+
+    --p: 70%; /* triangle position (0%:left 100%:right) */
+    --b: 3px; /* border width */
+    --r: 0.5em; /* the radius */
+    --c1: rgb(255 255 255 / 0.7); /* semi-transparent background*/
+    --c2: #ffffff; /* border color*/
+
+    padding: 1em;
+    margin-left: var(--h);
+    color: #7a4924;
+    position: relative;
+    z-index: 0;
+}
+.speech-bubble:before,
+.speech-bubble:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: conic-gradient(var(--c2) 0 0);
+    --_p: clamp(var(--h)*tan(var(--a)/2) + var(--b), var(--p), 100% - var(--h)*tan(var(--a)/2) - var(--b));
+}
+
+.speech-bubble:before {
+    padding: var(--b);
+    border-radius: var(--r) / min(var(--r), var(--p) - var(--h)*tan(var(--a)/2)) var(--r) var(--r) min(var(--r), 100% - var(--p) - var(--h)*tan(var(--a)/2));
+
+    background-size: calc(100% + var(--h)) 100%;
+    background-position: right;
+
+    clip-path: polygon(
+            0 0, 100% 0, 100% 100%, 0 100%,
+            0 calc(var(--_p) + var(--h)*tan(var(--a)/2) - var(--b)*tan(45deg - var(--a)/4)),
+            var(--b) calc(var(--_p) + var(--h)*tan(var(--a)/2) - var(--b)*tan(45deg - var(--a)/4)),
+            var(--b) calc(var(--_p) - var(--h)*tan(var(--a)/2) + var(--b)*tan(45deg - var(--a)/4)),
+            0 calc(var(--_p) - var(--h)*tan(var(--a)/2) + var(--b)*tan(45deg - var(--a)/4))
+    );
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+.speech-bubble:after {
+    left: calc(-1 * var(--h));
+
+    clip-path: polygon(
+            var(--h) calc(var(--_p) + var(--h)*tan(var(--a)/2)),
+            0 var(--_p),
+            var(--h) calc(var(--_p) - var(--h)*tan(var(--a)/2)),
+            calc(var(--h) + var(--b)) calc(var(--_p) - var(--h)*tan(var(--a)/2) + var(--b)*tan(45deg - var(--a)/4)),
+            calc(var(--b)/sin(var(--a)/2)) var(--_p),
+            calc(var(--h) + var(--b)) calc(var(--_p) + var(--h)*tan(var(--a)/2) - var(--b)*tan(45deg - var(--a)/4))
+    );
+}
+
+.speech-bubble span {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    padding: var(--b);
+    border-radius: var(--r);
+
+    clip-path: polygon(
+        0 0, 100% 0, 100% 100%, 0 100%,
+        var(--b) min(100% - var(--b), var(--p) + var(--h)*tan(var(--a)/2) - var(--b)*tan(45deg - var(--a)/4)),
+        calc(-1*var(--h) + var(--b)/sin(var(--a)/2)) var(--p),
+        var(--b) max(var(--b), var(--p) - var(--h)*tan(var(--a)/2) + var(--b)*tan(45deg - var(--a)/4))
+    );
+    background: var(--c1) content-box;
+
+    border-image: conic-gradient(var(--c1) 0 0) fill 0 / max(var(--b), var(--p) - var(--h)*tan(var(--a)/2))
+    calc(100% - var(--h) - var(--b))
+    max(var(--b), 100% - var(--p) - var(--h)*tan(var(--a)/2)) 0 / 0 0 0 var(--h);
+}
+
+.speech-bubble {
+    max-width: 28ch;
+    text-align: left;
+}
