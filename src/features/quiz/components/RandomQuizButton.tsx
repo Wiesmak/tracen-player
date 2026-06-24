@@ -28,8 +28,8 @@ const RandomQuizButton = ({ quizzes }: RandomQuizButtonProps) => {
         <button onClick={openRandom} type="button"
                 className={`${styles.umabox} size-full block col-span-3`}>
             <div className="size-full">
-                <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/assets/${quiz.image}`}
-                     alt="icon" draggable={false} height={256} width={512}
+                <img src={`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/assets/button_go_lg.png`}
+                     alt="icon" draggable={false} height={136} width={972}
                      className="rounded-2xl lg:rounded-4xl rounded-b-none lg:rounded-b-none pointer-events-none"/>
                 <span className="font-semibold text-md text-center lg:text-4xl lg:p-1 block">Losuj quiz</span>
             </div>
@@ -51,8 +51,11 @@ const RandomQuizButton = ({ quizzes }: RandomQuizButtonProps) => {
                 </p>
                 <Heading className="text-white font-semibold">Zasady gry</Heading>
                 <p className="max-w-3/4 text-[#7a4924] font-semibold p-2 pb-8" style={{color: "#7a4924"}}>
-                    Tyrtum pyrtum zasady
-                </p>
+                    Zdobądź jak najwięcej punktów odpowiadając na pytania.<br/>
+                    Aby udzielić odpowiedzi, dotknij jedną z dostępnych opcji.<br/>
+                    W niektórych quizach będziesz mieć możliwość powiększenia <br/> obrazka, ale obniży to punkty za poprawną odpowiedź.<br/>
+                    Zdobądź przynajmniej 50% punktów a otrzymasz nagrodę.
+                    </p>
                 <Heading className="text-white font-semibold">Tryb gry</Heading>
                 <div className={`grid grid-cols-2 items-center justify-center justify-items-center gap-2 mt-4 ${styles['diff-selector-grid']}`}>
                     <span onClick={() => selectEasyMode()}>

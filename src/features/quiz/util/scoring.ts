@@ -29,6 +29,8 @@ export const PassingScore = {
 
 export const QuizLength = {
     Demo: 3,
+    VeryShort: 5,
+    Short: 7,
     Default: 10,
     Long: 30,
 }

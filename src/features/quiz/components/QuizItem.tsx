@@ -49,8 +49,11 @@ const QuizItem = ({quiz}: QuizItemProps) => {
                 </p>
                 <Heading className="text-white font-semibold">Zasady gry</Heading>
                 <p className="max-w-3/4 text-[#7a4924] font-semibold p-2 pb-8" style={{color: "#7a4924"}}>
-                    Tyrtum pyrtum zasady
-                </p>
+                    Zdobądź jak najwięcej punktów odpowiadając na pytania.<br/>
+                    Aby udzielić odpowiedzi, dotknij jedną z dostępnych opcji.<br/>
+                    W niektórych quizach będziesz mieć możliwość powiększenia <br/> obrazka, ale obniży to punkty za poprawną odpowiedź.<br/>
+                    Zdobądź przynajmniej 50% punktów a otrzymasz nagrodę.
+                    </p>
                 <Heading className="text-white font-semibold">Tryb gry</Heading>
                 <div className={`grid grid-cols-2 items-center justify-center justify-items-center gap-2 mt-4 ${styles['diff-selector-grid']}`}>
                     <span onClick={() => selectEasyMode()}>

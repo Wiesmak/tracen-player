@@ -2,8 +2,8 @@
   "quiz": {
     "id": "horse2uma",
     "title": "Zgadnij umę IRL",
-    "image": "umahalf.png",
-    "description": "Zgadnij Umamusume po prawdziwym koniu i ubraniu dżokeja.",
+    "image": "button_fuji.png",
+    "description": "Coś tu nie gra... Czy potrafisz rozpoznać umamusume po zdjęciach ich koni-źródeł?",
     "type": "uma"
   },
   "questions": [

@@ -2,8 +2,8 @@
   "quiz": {
     "id": "ear_decors",
     "title": "Zgadnij umę po ozdobie",
-    "image": "umahalf.png",
-    "description": "Przyporządkuj dekorację uszu do odpowiedniej umamusume.",
+    "image": "button_guri.png",
+    "description": "Ktoś pomieszał ozdoby w stajni! Przyporządkuj je do odpowiednich umamusume.",
     "type": "uma"
   },
   "questions": [

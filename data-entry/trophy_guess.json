@@ -2,8 +2,8 @@
   "quiz": {
     "id": "trophies",
     "title": "Zgadnij umę po trofeum",
-    "image": "umahalf.png",
-    "description": "Rozpoznaj umamusume po ich trofeach.",
+    "image": "button_suzu.png",
+    "description": "Czyj to puchar? Rozpoznaj umamusume po ich trofeach.",
     "type": "uma"
   },
   "questions": [

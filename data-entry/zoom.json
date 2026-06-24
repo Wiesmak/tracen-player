@@ -1,0 +1,423 @@
+{
+  "quiz": {
+    "id": "zoom",
+    "title": "Fragmenty obrazów",
+    "image": "button_teio.png",
+    "description": "Po ilu pikselachj rozpoznasz swoją waifu? Odgadnij umamusume po wycinku obrazka.",
+    "type": "uma"
+  },
+    "questions": [
+    {
+      "id": "001",
+      "id_answer": "025",
+      "text": "Czyj to fragment?",
+      "images": [
+        "zoom/cafe_1.png",
+        "zoom/cafe_2.png",
+        "zoom/cafe_3.png",
+        "zoom/cafe_4.png",
+        "umamusume_racewear/manhattan_cafe_racewear.png"
+      ]
+    },
+    {
+      "id": "002",
+      "id_answer": "059",
+      "text": "Czyj to fragment?",
+      "images": [
+        "zoom/dober_1.png",
+        "zoom/dober_2.png",
+        "zoom/dober_3.png",
+        "zoom/dober_4.png",
+        "umamusume_racewear/mejiro_dober_racewear.png"
+      ]
+    },
+    {
+      "id": "003",
+      "id_answer": "061",
+      "text": "Czyj to fragment?",
+      "images": [
+        "zoom/halo_1.png",
+        "zoom/halo_2.png",
+        "zoom/halo_3.png",
+        "zoom/halo_4.png",
+        "umamusume_racewear/king_halo_racewear.png"
+      ]
+    },
+    {
+      "id": "004",
+      "id_answer": "068",
+      "text": "Czyj to fragment?",
+      "images": [
+        "zoom/kita_1.png",
+        "zoom/kita_2.png",
+        "zoom/kita_3.png",
+        "zoom/kita_4.png",
+        "umamusume_racewear/kitasan_black_racewear.png"
+      ]
+    },
+    {
+      "id": "005",
+      "id_answer": "024",
+      "text": "Czyj to fragment?",
+      "images": [
+        "zoom/mayano_1.png",
+        "zoom/mayano_2.png",
+        "zoom/mayano_3.png",
+        "zoom/mayano_4.png",
+        "umamusume_racewear/mayano_top_gun_racewear.png"
+      ]
+    },
+    {
+      "id": "006",
+      "id_answer": "017",
+      "text": "Czyj to fragment?",
+      "images": [
+        "zoom/rudolf_1.png",
+        "zoom/rudolf_2.png",
+        "zoom/rudolf_3.png",
+        "zoom/rudolf_4.png",
+        "umamusume_racewear/symboli_rudolf_racewear.png"
+      ]
+    },
+    {
+      "id": "007",
+      "id_answer": "032",
+      "text": "Czyj to fragment?",
+      "images": [
+        "zoom/tachyon_1.png",
+        "zoom/tachyon_2.png",
+        "zoom/tadchyon_3.png",
+        "zoom/tachyon_4.png",
+        "umamusume_racewear/agnes_tachyon_racewear.png"
+      ]
+    },
+    {
+      "id": "008",
+      "id_answer": "050",
+      "text": "Czyj to fragment?",
+      "images": [
+        "zoom/taishin_1.png",
+        "zoom/taishin_2.png",
+        "zoom/taishin_3.png",
+        "zoom/taishin_4.png",
+        "umamusume_racewear/narita_taishin_racewear.png"
+      ]
+    },
+    {
+      "id": "009",
+      "id_answer": "056",
+      "text": "Czyj to fragment?",
+      "images": [
+        "zoom/fukukitaru_1.png",
+        "zoom/fukukitaru_2.png",
+        "zoom/fukukitaru_3.png",
+        "zoom/fukukitaru_4.png",
+        "umamusume_racewear/matikanefukukitaru_racewear.png"
+      ]
+    },
+    {
+      "id": "010",
+      "id_answer": "041",
+      "text": "Czyj to fragment?",
+      "images": [
+        "zoom/bakushin_1.png",
+        "zoom/bakushin_2.png",
+        "zoom/bakushin_3.png",
+        "zoom/bakushin_4.png",
+        "umamusume_racewear/sakura_bakushin_o_racewear.png"
+      ]
+    }
+  ],
+  "answers": [
+    {
+      "id": "001",
+      "text": "Special Week",
+      "image": "umamusume_racewear/special_week_racewear.png"
+    },
+    {
+      "id": "002",
+      "text": "Silence Suzuka",
+      "image": "umamusume_racewear/silence_suzuka_racewear.png"
+    },
+    {
+      "id": "003",
+      "text": "Tokai Teio",
+      "image": "umamusume_racewear/tokai_teio_racewear.png"
+    },
+    {
+      "id": "004",
+      "text": "Maruzensky",
+      "image": "umamusume_racewear/maruzensky_racewear.png"
+    },
+    {
+      "id": "005",
+      "text": "Oguri Cap",
+      "image": "umamusume_racewear/oguri_cap_racewear.png"
+    },
+    {
+      "id": "006",
+      "text": "Gold Ship",
+      "image": "umamusume_racewear/gold_ship_racewear.png"
+    },
+    {
+      "id": "007",
+      "text": "Fuji Kiseki",
+      "image": "umamusume_racewear/fuji_kiseki_racewear.png"
+    },
+    {
+      "id": "008",
+      "text": "Vodka",
+      "image": "umamusume_racewear/vodka_racewear.png"
+    },
+    {
+      "id": "009",
+      "text": "Daiwa Scarlet",
+      "image": "umamusume_racewear/daiwa_scarlet_racewear.png"
+    },
+    {
+      "id": "010",
+      "text": "Taiki Shuttle",
+      "image": "umamusume_racewear/taiki_shuttle_racewear.png"
+    },
+    {
+      "id": "011",
+      "text": "Grass Wonder",
+      "image": "umamusume_racewear/grass_wonder_racewear.png"
+    },
+    {
+      "id": "012",
+      "text": "Hishi Amazon",
+      "image": "umamusume_racewear/hishi_amazon_racewear.png"
+    },
+    {
+      "id": "013",
+      "text": "Mejiro McQueen",
+      "image": "umamusume_racewear/mejiro_mcqueen_racewear.png"
+    },
+    {
+      "id": "014",
+      "text": "El Condor Pasa",
+      "image": "umamusume_racewear/el_condor_pasa_racewear.png"
+    },
+    {
+      "id": "015",
+      "text": "TM Opera O",
+      "image": "umamusume_racewear/t.m._opera_o_racewear.png"
+    },
+    {
+      "id": "016",
+      "text": "Narita Brian",
+      "image": "umamusume_racewear/narita_brian_racewear.png"
+    },
+    {
+      "id": "017",
+      "text": "Symboli Rudolf",
+      "image": "umamusume_racewear/symboli_rudolf_racewear.png"
+    },
+    {
+      "id": "018",
+      "text": "Air Groove",
+      "image": "umamusume_racewear/air_groove_racewear.png"
+    },
+    {
+      "id": "019",
+      "text": "Agnes Digital",
+      "image": "umamusume_racewear/agnes_digital_racewear.png"
+    },
+    {
+      "id": "020",
+      "text": "Seiun Sky",
+      "image": "umamusume_racewear/seiun_sky_racewear.png"
+    },
+    {
+      "id": "021",
+      "text": "Tamamo Cross",
+      "image": "umamusume_racewear/tamamo_cross_racewear.png"
+    },
+    {
+      "id": "022",
+      "text": "Fine Motion",
+      "image": "umamusume_racewear/fine_motion_racewear.png"
+    },
+    {
+      "id": "023",
+      "text": "Biwa Hayahide",
+      "image": "umamusume_racewear/biwa_hayahide_racewear.png"
+    },
+    {
+      "id": "024",
+      "text": "Mayano Top Gun",
+      "image": "umamusume_racewear/mayano_top_gun_racewear.png"
+    },
+    {
+      "id": "025",
+      "text": "Manhattan Cafe",
+      "image": "umamusume_racewear/manhattan_cafe_racewear.png"
+    },
+    {
+      "id": "026",
+      "text": "Mihono Bourbon",
+      "image": "umamusume_racewear/mihono_bourbon_racewear.png"
+    },
+    {
+      "id": "027",
+      "text": "Mejiro Ryan",
+      "image": "umamusume_racewear/mejiro_ryan_racewear.png"
+    },
+    {
+      "id": "028",
+      "text": "Hishi Akebono",
+      "image": "umamusume_racewear/hishi_akebono_racewear.png"
+    },
+    {
+      "id": "030",
+      "text": "Rice Shower",
+      "image": "umamusume_racewear/rice_shower_racewear.png"
+    },
+    {
+      "id": "031",
+      "text": "Ines Fujin",
+      "image": "umamusume_racewear/ines_fujin_racewear.png"
+    },
+    {
+      "id": "032",
+      "text": "Agnes Tachyon",
+      "image": "umamusume_racewear/agnes_tachyon_racewear.png"
+    },
+    {
+      "id": "034",
+      "text": "Inari One",
+      "image": "umamusume_racewear/inari_one_racewear.png"
+    },
+    {
+      "id": "035",
+      "text": "Winning Ticket",
+      "image": "umamusume_racewear/winning_ticket_racewear.png"
+    },
+    {
+      "id": "036",
+      "text": "Air Shakur",
+      "image": "umamusume_racewear/air_shakur_racewear.png"
+    },
+    {
+      "id": "037",
+      "text": "Eishin Flash",
+      "image": "umamusume_racewear/eishin_flash_racewear.png"
+    },
+    {
+      "id": "038",
+      "text": "Curren Chan",
+      "image": "umamusume_racewear/curren_chan_racewear.png"
+    },
+    {
+      "id": "039",
+      "text": "Kawakami Princess",
+      "image": "umamusume_racewear/kawakami_princess_racewear.png"
+    },
+    {
+      "id": "040",
+      "text": "Gold City",
+      "image": "umamusume_racewear/gold_city_racewear.png"
+    },
+    {
+      "id": "041",
+      "text": "Sakura Bakushin O",
+      "image": "umamusume_racewear/sakura_bakushin_o_racewear.png"
+    },
+    {
+      "id": "044",
+      "text": "Sweep Tosho",
+      "image": "umamusume_racewear/sweep_tosho_racewear.png"
+    },
+    {
+      "id": "045",
+      "text": "Super Creek",
+      "image": "umamusume_racewear/super_creek_racewear.png"
+    },
+    {
+      "id": "046",
+      "text": "Smart Falcon",
+      "image": "umamusume_racewear/smart_falcon_racewear.png"
+    },
+    {
+      "id": "048",
+      "text": "Tosen Jordan",
+      "image": "umamusume_racewear/tosen_jordan_racewear.png"
+    },
+    {
+      "id": "050",
+      "text": "Narita Taishin",
+      "image": "umamusume_racewear/narita_taishin_racewear.png"
+    },
+    {
+      "id": "051",
+      "text": "Nishino Flower",
+      "image": "umamusume_racewear/nishino_flower_racewear.png"
+    },
+    {
+      "id": "052",
+      "text": "Haru Urara",
+      "image": "umamusume_racewear/haru_urara_racewear.png"
+    },
+    {
+      "id": "056",
+      "text": "Matikanefukukitaru",
+      "image": "umamusume_racewear/matikanefukukitaru_racewear.png"
+    },
+    {
+      "id": "058",
+      "text": "Meisho Doto",
+      "image": "umamusume_racewear/meisho_doto_racewear.png"
+    },
+    {
+      "id": "059",
+      "text": "Mejiro Dober",
+      "image": "umamusume_racewear/mejiro_dober_racewear.png"
+    },
+    {
+      "id": "060",
+      "text": "Nice Nature",
+      "image": "umamusume_racewear/nice_nature_racewear.png"
+    },
+    {
+      "id": "061",
+      "text": "King Halo",
+      "image": "umamusume_racewear/king_halo_racewear.png"
+    },
+    {
+      "id": "062",
+      "text": "Matikanetannhauser",
+      "image": "umamusume_racewear/matikanetannhauser_racewear.png"
+    },
+    {
+      "id": "064",
+      "text": "Mejiro Palmer",
+      "image": "umamusume_racewear/mejiro_palmer_racewear.png"
+    },
+    {
+      "id": "067",
+      "text": "Satono Diamond",
+      "image": "umamusume_racewear/satono_diamond_racewear.png"
+    },
+    {
+      "id": "068",
+      "text": "Kitasan Black",
+      "image": "umamusume_racewear/kitasan_black_racewear.png"
+    },
+    {
+      "id": "069",
+      "text": "Sakura Chiyono O",
+      "image": "umamusume_racewear/sakura_chiyono_o_racewear.png"
+    },
+    {
+      "id": "072",
+      "text": "Yaeno Muteki",
+      "image": "umamusume_racewear/yaeno_muteki_racewear.png"
+    },
+    {
+      "id": "074",
+      "text": "Mejiro Bright",
+      "image": "umamusume_racewear/mejiro_bright_racewear.png"
+    }
+  ]
+}
