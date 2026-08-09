@@ -15,21 +15,21 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.12.0",
-    "@types/lodash": "^4.17.24",
+    "@types/lodash": "^4.17.25",
     "@wiesmak/umaui-react": "^0.1.0",
     "lodash": "^4.18.1",
-    "next": "16.2.7",
-    "react": "19.2.7",
-    "react-dom": "19.2.7",
+    "next": "16.3.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
     "react-redux": "^9.3.0",
-    "react-simple-keyboard": "^3.8.221"
+    "react-simple-keyboard": "^3.8.255"
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.16",
     "@tailwindcss/postcss": "^4.3.0",
     "@types/node": "^25.9.2",
-    "@types/react": "^19.2.17",
-    "@types/react-dom": "^19.2.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.4",
     "babel-plugin-react-compiler": "1.0.0",
     "serve": "^14.2.6",
     "tailwindcss": "^4.3.0",
