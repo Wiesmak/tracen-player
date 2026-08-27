@@ -1,52 +1,73 @@
 import { useEffect, useRef, useState } from "react"
+import {
+  ensureQuestionDeadline,
+  selectQuestionDeadline,
+} from "@/features/quiz/slice"
+import { useAppDispatch, useAppSelector } from "@/store/hooks"
 
 interface QuestionTimerOptions {
-    questionId: string | undefined,
-    isReady: boolean,
-    isRevealed: boolean,
-    durationSeconds: number,
-    onTimeout: () => void,
+  questionId: string | undefined
+  isReady: boolean
+  isRevealed: boolean
+  durationSeconds: number
+  onTimeout: () => void
 }
 
 const useQuestionTimer = ({
-    questionId,
-    isReady,
-    isRevealed,
-    durationSeconds,
-    onTimeout,
+  questionId,
+  isReady,
+  isRevealed,
+  durationSeconds,
+  onTimeout,
 }: QuestionTimerOptions) => {
-    const [remainingSeconds, setRemainingSeconds] = useState(durationSeconds)
-    const onTimeoutRef = useRef(onTimeout)
+  const dispatch = useAppDispatch()
+  const deadline = useAppSelector(selectQuestionDeadline)
+  const [remainingSeconds, setRemainingSeconds] = useState(durationSeconds)
+  const onTimeoutRef = useRef(onTimeout)
 
-    useEffect(() => {
-        onTimeoutRef.current = onTimeout
-    }, [onTimeout])
+  useEffect(() => {
+    onTimeoutRef.current = onTimeout
+  }, [onTimeout])
 
-    useEffect(() => {
-        setRemainingSeconds(durationSeconds)
+  useEffect(() => {
+    if (!questionId || !isReady || isRevealed || deadline !== null) return
 
-        if (!questionId || !isReady || isRevealed) return
+    dispatch(
+      ensureQuestionDeadline({
+        questionId,
+        deadline: Date.now() + durationSeconds * 1000,
+      }),
+    )
+  }, [deadline, dispatch, durationSeconds, isReady, isRevealed, questionId])
 
-        const deadline = Date.now() + durationSeconds * 1000
-        let hasExpired = false
+  useEffect(() => {
+    if (!questionId || !isReady || isRevealed || deadline === null) {
+      setRemainingSeconds(durationSeconds)
+      return
+    }
 
-        const updateRemainingTime = () => {
-            const nextRemainingSeconds = Math.max(0, Math.ceil((deadline - Date.now()) / 1000))
-            setRemainingSeconds(nextRemainingSeconds)
+    let hasExpired = false
 
-            if (nextRemainingSeconds === 0 && !hasExpired) {
-                hasExpired = true
-                onTimeoutRef.current()
-            }
-        }
+    const updateRemainingTime = () => {
+      const nextRemainingSeconds = Math.max(
+        0,
+        Math.ceil((deadline - Date.now()) / 1000),
+      )
+      setRemainingSeconds(nextRemainingSeconds)
 
-        updateRemainingTime()
-        const intervalId = window.setInterval(updateRemainingTime, 250)
+      if (nextRemainingSeconds === 0 && !hasExpired) {
+        hasExpired = true
+        onTimeoutRef.current()
+      }
+    }
 
-        return () => window.clearInterval(intervalId)
-    }, [durationSeconds, isReady, isRevealed, questionId])
+    updateRemainingTime()
+    const intervalId = window.setInterval(updateRemainingTime, 250)
 
-    return remainingSeconds
+    return () => window.clearInterval(intervalId)
+  }, [deadline, durationSeconds, isReady, isRevealed, questionId])
+
+  return remainingSeconds
 }
 
 export default useQuestionTimer

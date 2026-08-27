@@ -11,7 +11,8 @@
     "generate-data": "node scripts/transpile.mjs",
     "serve": "serve -s out",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "test": "vitest run --config vitest.unit.config.mts"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.12.0",

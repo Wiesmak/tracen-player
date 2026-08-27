@@ -12,6 +12,9 @@
       "text": {
         "type": "string"
       },
+      "text_en": {
+        "type": "string"
+      },
       "images": {
         "type": "array",
         "items": {
@@ -25,11 +28,7 @@
         "type": "string"
       }
     },
-    "required": [
-      "id",
-      "text",
-      "answerId"
-    ],
+    "required": ["id", "text", "text_en", "answerId"],
     "additionalProperties": false
   }
 }

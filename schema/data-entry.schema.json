@@ -15,6 +15,10 @@
           "type": "string",
           "description": "Title of the quiz"
         },
+        "title_en": {
+          "type": "string",
+          "description": "Optional English title of the quiz"
+        },
         "image": {
           "type": "string",
           "description": "Image associated with the quiz"
@@ -23,18 +27,17 @@
           "type": "string",
           "description": "Description of the quiz"
         },
+        "description_en": {
+          "type": "string",
+          "description": "Optional English description of the quiz"
+        },
         "type": {
           "type": "string",
           "enum": ["uma", "truefalse", "match"],
           "description": "The type of the quiz"
         }
       },
-      "required": [
-        "id",        "title",
-        "image",
-        "description",
-        "type"
-      ],
+      "required": ["id", "title", "image", "description", "type"],
       "additionalProperties": false
     },
     "questions": {
@@ -54,6 +57,10 @@
             "type": "string",
             "description": "The question text"
           },
+          "text_en": {
+            "type": "string",
+            "description": "Optional English question text"
+          },
           "images": {
             "type": "array",
             "items": {
@@ -66,11 +73,7 @@
             "description": "Optional audio for the question"
           }
         },
-        "required": [
-          "id",
-          "id_answer",
-          "text"
-        ],
+        "required": ["id", "id_answer", "text"],
         "additionalProperties": false
       },
       "description": "List of questions for the quiz"
@@ -88,25 +91,21 @@
             "type": "string",
             "description": "The answer text"
           },
+          "text_en": {
+            "type": "string",
+            "description": "Optional English answer text"
+          },
           "image": {
             "type": "string",
             "description": "Optional image for the answer"
           }
         },
-        "required": [
-          "id",
-          "text"
-        ],
+        "required": ["id", "text"],
         "additionalProperties": false
       },
       "description": "List of answers for the quiz's questions"
     }
   },
-  "required": [
-    "quiz",
-    "questions",
-    "answers"
-  ],
+  "required": ["quiz", "questions", "answers"],
   "additionalProperties": false
 }
-
