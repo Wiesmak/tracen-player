@@ -158,7 +158,7 @@ const QuizPlayer = ({ quiz }: QuizPageProps) => {
           )}
         </div>
       )}
-      <div className="fixed bottom-5 left-5">
+      <div className="fixed bottom-10 left-5">
         <Button small onClick={handleQuit}>
           {dictionary.common.exit}
         </Button>
