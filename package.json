@@ -9,6 +9,7 @@
     "lint": "biome check",
     "format": "biome format --write",
     "generate-data": "node scripts/transpile.mjs",
+    "translate-data-entry": "node scripts/add-english-translations.mjs",
     "serve": "serve -s out",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",

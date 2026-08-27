@@ -27,9 +27,7 @@ const QuizCatalog = () => {
           className={`absolute top-2/7 left-3/7 text-3xl font-semibold ${styles["speech-bubble"]}`}
         >
           <span></span>
-          {dictionary.catalog.welcome}
-          <br />
-          {dictionary.catalog.invitation}
+          {dictionary.catalog.welcome} {dictionary.catalog.invitation}
         </div>
       </div>
       <div
