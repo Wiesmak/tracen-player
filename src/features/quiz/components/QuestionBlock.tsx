@@ -8,9 +8,10 @@ interface QuestionBlockProps {
     quizTitle: string,
     isRevealed: boolean,
     isCorrect: boolean,
+    isTimedOut: boolean,
 }
 
-const QuestionBlock = ({questionId, quizTitle, isRevealed, isCorrect}: QuestionBlockProps) => {
+const QuestionBlock = ({questionId, quizTitle, isRevealed, isCorrect, isTimedOut}: QuestionBlockProps) => {
     const { question, currentImage, isLoading, error } = useQuestionBlock(questionId)
 
     if (isLoading) {
@@ -36,9 +37,11 @@ const QuestionBlock = ({questionId, quizTitle, isRevealed, isCorrect}: QuestionB
                 {
                     !isRevealed
                         ? question.text
-                        : isCorrect
-                            ? "Tak jest!"
-                            : "Nie, to nie jest poprawna odpowiedź."
+                        : isTimedOut
+                            ? "Czas minął..."
+                            : isCorrect
+                                ? "Tak jest!"
+                                : "Nie, to nie jest poprawna odpowiedź."
                 }
             </div>
         </div>

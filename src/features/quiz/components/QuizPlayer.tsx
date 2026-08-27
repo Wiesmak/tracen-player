@@ -1,9 +1,11 @@
 import { Button, DialogChoice, Heading, HorseshoesBackground } from "@wiesmak/umaui-react"
 import { useCallback } from "react"
+import QuizConfig from "@/config/quiz-config"
 import type Quiz from "@/entities/quiz"
 import AnswerSelector from "@/features/quiz/components/AnswerSelector"
 import QuestionBlock from "@/features/quiz/components/QuestionBlock"
 import useAnswers from "@/features/quiz/hooks/use-answers"
+import useQuestionTimer from "@/features/quiz/hooks/use-question-timer"
 import useQuestions from "@/features/quiz/hooks/use-questions"
 import useQuizFlow from "@/features/quiz/hooks/use-quiz-flow"
 import useSelection from "@/features/quiz/hooks/use-selection"
@@ -15,10 +17,19 @@ interface QuizPageProps {
 }
 
 const QuizPlayer = ({quiz}: QuizPageProps) => {
-    const { progress, subProgress, score, showKeyboard, isRevealed, canEnlarge, handleNext, handleQuit, quizId} = useQuizFlow()
+    const {
+        progress,
+        showKeyboard,
+        isRevealed,
+        isTimedOut,
+        canEnlarge,
+        handleNext,
+        handleTimeout,
+        handleQuit,
+    } = useQuizFlow()
     const { currentQuestionId } = useQuestions()
     const { selection, handleSelect } = useSelection()
-    const { answers } = useAnswers()
+    const { answers, currentAnswers } = useAnswers()
     const colors = ["green", "pink", "yellow"]
 
     const {data: currentQuestion} = useGetQuestionByIdQuery(currentQuestionId ?? "", {
@@ -29,6 +40,14 @@ const QuizPlayer = ({quiz}: QuizPageProps) => {
         selection === currentQuestion?.answerId,
     [selection, currentQuestion?.answerId])
 
+    const isAnswerReady = Boolean(currentQuestion) && currentAnswers.length > 0
+    const remainingSeconds = useQuestionTimer({
+        questionId: currentQuestionId,
+        isReady: isAnswerReady,
+        isRevealed,
+        durationSeconds: QuizConfig.QuestionTimeLimitSeconds,
+        onTimeout: handleTimeout,
+    })
 
     return <HorseshoesBackground config={{
             count: 35,
@@ -39,8 +58,17 @@ const QuizPlayer = ({quiz}: QuizPageProps) => {
         <Heading width="16rem" backgroundColor="slategray" className="font-semibold text-white top-2 left-0 fixed">
             {quiz.title}
         </Heading>
+        {(!isRevealed && isAnswerReady) && (
+            <div className={styles.timer} role="timer">Czas: {remainingSeconds} s</div>
+        )}
         <div className="flex-2 w-3/4 max-h-1/3">
-            <QuestionBlock questionId={currentQuestionId} quizTitle={`Pytanie ${progress + 1}`} isRevealed={isRevealed} isCorrect={isCorrect()}/>
+            <QuestionBlock
+                questionId={currentQuestionId}
+                quizTitle={`Pytanie ${progress + 1}`}
+                isRevealed={isRevealed}
+                isCorrect={isCorrect()}
+                isTimedOut={isTimedOut}
+            />
         </div>
         <div className={`flex-3 overflow-y-auto`}>
             <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-4 place-content-center">
@@ -89,7 +117,7 @@ const QuizPlayer = ({quiz}: QuizPageProps) => {
         { (isRevealed || canEnlarge) && (
             <div className="flex flex-row items-center justify-center gap-4">
                 {canEnlarge && <Button onClick={handleNext} >Powiększ</Button>}
-                {isRevealed && <Button onClick={handleNext} disabled={selection === null} primary>Dalej</Button>}
+                {isRevealed && <Button onClick={handleNext} disabled={selection === null && !isTimedOut} primary>Dalej</Button>}
             </div>
         )}
         <div className="fixed bottom-5 left-5">

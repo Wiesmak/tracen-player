@@ -1,9 +1,9 @@
 import { useRouter } from "next/navigation"
 import {
     endQuiz,
-    prepareQuiz, type QuizMode, selectCanEnlarge, selectCurrentQuestions,
+    prepareQuiz, type QuizMode, selectCanEnlarge,
     selectCurrentQuizId,
-    selectIsQuizActive, selectIsRevealed,
+    selectIsQuizActive, selectIsRevealed, selectIsTimedOut,
     selectProgress, selectQuizMode,
     selectScore, selectSubProgress,
 } from "@/features/quiz/slice"
@@ -22,6 +22,7 @@ const useQuizFlow = () => {
     const quizId = useAppSelector(selectCurrentQuizId)
     const showKeyboard = useAppSelector(selectQuizMode) === "HARD"
     const isRevealed = useAppSelector(selectIsRevealed)
+    const isTimedOut = useAppSelector(selectIsTimedOut)
     const canEnlarge = useAppSelector(selectCanEnlarge)
 
     const handleStart = (id: string, mode: QuizMode) => {
@@ -33,7 +34,11 @@ const useQuizFlow = () => {
     }
 
     const handleNext = () => {
-        dispatch(stepQuiz())
+        dispatch(stepQuiz({type: "next"}))
+    }
+
+    const handleTimeout = () => {
+        dispatch(stepQuiz({type: "timeout"}))
     }
 
     const handleQuit = () => {
@@ -53,9 +58,11 @@ const useQuizFlow = () => {
         quizId,
         showKeyboard,
         isRevealed,
+        isTimedOut,
         canEnlarge,
         handleStart,
         handleNext,
+        handleTimeout,
         handleQuit,
         handleClearState,
     }

@@ -4,12 +4,28 @@ import finishQuiz from "@/features/quiz/thunks/finish-quiz"
 import quizApi from "@/services/quiz-api"
 import type { AppThunk } from "@/store/store"
 
-const stepQuiz = () : AppThunk => (
+export type QuizStepTrigger =
+    | { type: "next" }
+    | { type: "answer", answerId: string }
+    | { type: "timeout" }
+
+const stepQuiz = (trigger: QuizStepTrigger = {type: "next"}) : AppThunk => (
     dispatch,
     getState
 ) => {
     const state = getState()
-    const {progress, subProgress, score, currentQuestions, currentSelection, isRevealed, quiz: quizId} = state.quizState
+    const {
+        progress,
+        subProgress,
+        score,
+        currentQuestions,
+        currentSelection,
+        isRevealed,
+        isTimedOut,
+        quiz: quizId,
+    } = state.quizState
+
+    if ((trigger.type === "answer" || trigger.type === "timeout") && isRevealed) return
 
     const quizCache = quizApi.endpoints.getQuizById.select(quizId)(state)
     const quiz = quizCache.data
@@ -19,20 +35,31 @@ const stepQuiz = () : AppThunk => (
     const question = questionCache.data
     if (!question) return
 
-    if (currentSelection === null && subProgress < question.images.length - 2) {
+    const effectiveSelection = trigger.type === "answer" ? trigger.answerId : currentSelection
+    const timedOutOutcome = isTimedOut || trigger.type === "timeout"
+
+    if (trigger.type === "answer") {
+        dispatch(setCurrentSelection(trigger.answerId))
+    }
+
+    if (trigger.type === "next" && !isRevealed && effectiveSelection === null
+        && subProgress < question.images.length - 2) {
         dispatch(progressQuiz({
             subProgress: subProgress + 1,
         }))
     } else {
         const newScore = QuizConfig.ScoringAlgorithm({
             previousScore: score,
-            isCorrect: currentSelection === question.answerId,
+            isCorrect: !timedOutOutcome && effectiveSelection === question.answerId,
             subProgress: subProgress,
             maxHints: question.images.length > 1 ? question.images.length - 2 : 0,
         })
 
         if (!isRevealed) {
-            dispatch(progressQuiz({isRevealed: true}))
+            dispatch(progressQuiz({
+                isRevealed: true,
+                isTimedOut: timedOutOutcome,
+            }))
         } else {
             if (progress >= currentQuestions.length - 1) {
                 dispatch(progressQuiz({
@@ -40,7 +67,6 @@ const stepQuiz = () : AppThunk => (
                 }))
                 dispatch(finishQuiz())
             } else {
-                dispatch(setCurrentSelection(null))
                 dispatch(progressQuiz({
                     progress: progress + 1,
                     subProgress: 0,

@@ -17,6 +17,7 @@ interface QuizState {
     currentSelectorInput: Nullable<string>,
     currentSelection: Nullable<string>,
     isRevealed: boolean,
+    isTimedOut: boolean,
     canEnlarge: boolean,
 }
 
@@ -33,6 +34,7 @@ const quizStateInitialState = {
     currentSelectorInput: null,
     currentSelection: null,
     isRevealed: false,
+    isTimedOut: false,
     canEnlarge: false,
 } satisfies QuizState as QuizState
 
@@ -66,10 +68,19 @@ const quizStateSlice = createSlice({
             return quizStateInitialState
         },
         progressQuiz: (state: QuizState, action: PayloadAction<Progress>) => {
+            const isQuestionChange = action.payload.progress !== undefined
+                && action.payload.progress !== state.progress
+
             return {
                 ...state,
                 ...action.payload,
+                currentAnswers: isQuestionChange ? [] : state.currentAnswers,
+                currentSelection: isQuestionChange ? null : state.currentSelection,
                 currentSelectorInput: null,
+                isTimedOut: isQuestionChange ? false : (action.payload.isTimedOut ?? state.isTimedOut),
+                canEnlarge: isQuestionChange || action.payload.isRevealed === true
+                    ? false
+                    : state.canEnlarge,
             }
         },
         setCurrentAnswers: (state: QuizState, action: PayloadAction<string[]>) => {
@@ -97,6 +108,7 @@ const quizStateSlice = createSlice({
         selectQuizMode: (state: QuizState) => state.mode,
         selectCurrentSelectorInput: (state: QuizState) => state.currentSelectorInput,
         selectIsRevealed: (state: QuizState) => state.isRevealed,
+        selectIsTimedOut: (state: QuizState) => state.isTimedOut,
         selectCanEnlarge: (state: QuizState) => state.canEnlarge,
     },
 })
@@ -128,5 +140,6 @@ export const {
     selectQuizMode,
     selectCurrentSelectorInput,
     selectIsRevealed,
+    selectIsTimedOut,
     selectCanEnlarge,
 } = quizStateSlice.selectors
