@@ -98,7 +98,7 @@ function QuizResultContent() {
           </div>
         </div>
       </div>
-      <div className="fixed bottom-10">
+      <div className="fixed bottom-12">
         <Button primary onClick={() => router.push(`/${locale}/quiz/list`)}>
           {dictionary.common.back}
         </Button>

@@ -23,7 +23,7 @@ const LanguageSwitcher = () => {
   }
 
   return (
-    <div className="fixed bottom-10 right-5 z-50" title={title}>
+    <div className="fixed bottom-12 right-5 z-50" title={title}>
       <Button small onClick={switchLanguage}>
         {targetLocale.toUpperCase()}
       </Button>

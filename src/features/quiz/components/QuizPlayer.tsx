@@ -80,7 +80,8 @@ const QuizPlayer = ({ quiz }: QuizPageProps) => {
       </Heading>
       {!isRevealed && isAnswerReady && (
         <div className={styles.timer} role="timer">
-          {dictionary.player.time}: {remainingSeconds}{" "}
+          {/*{dictionary.player.time}: {remainingSeconds}{" "}*/}
+          {remainingSeconds}{" "}
           {dictionary.player.secondsAbbreviation}
         </div>
       )}
@@ -93,7 +94,7 @@ const QuizPlayer = ({ quiz }: QuizPageProps) => {
           isTimedOut={isTimedOut}
         />
       </div>
-      <div className={`flex-3 overflow-y-auto`}>
+      <div className={`flex-3 overflow-y-auto ${showKeyboard && !isRevealed ? "max-h-2/5" : ""}`}>
         <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-4 place-content-center">
           {isRevealed
             ? answers
@@ -143,7 +144,7 @@ const QuizPlayer = ({ quiz }: QuizPageProps) => {
       </div>
       {showKeyboard && !isRevealed && <AnswerSelector />}
       {(isRevealed || canEnlarge) && (
-        <div className="flex flex-row items-center justify-center gap-4">
+        <div className="mb-12 flex flex-row items-center justify-center gap-4">
           {canEnlarge && (
             <Button onClick={handleNext}>{dictionary.player.enlarge}</Button>
           )}
@@ -158,7 +159,7 @@ const QuizPlayer = ({ quiz }: QuizPageProps) => {
           )}
         </div>
       )}
-      <div className="fixed bottom-10 left-5">
+      <div className="fixed bottom-12 left-5">
         <Button small onClick={handleQuit}>
           {dictionary.common.exit}
         </Button>
