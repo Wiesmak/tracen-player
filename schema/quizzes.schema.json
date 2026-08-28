@@ -14,6 +14,10 @@
         "type": "string",
         "description": "Title of the quiz"
       },
+      "title_en": {
+        "type": "string",
+        "description": "English title of the quiz"
+      },
       "image": {
         "type": "string",
         "description": "Image associated with the quiz"
@@ -21,6 +25,10 @@
       "description": {
         "type": "string",
         "description": "Description of the quiz"
+      },
+      "description_en": {
+        "type": "string",
+        "description": "English description of the quiz"
       },
       "type": {
         "type": "string",
@@ -38,8 +46,10 @@
     "required": [
       "id",
       "title",
+      "title_en",
       "image",
       "description",
+      "description_en",
       "type",
       "questions"
     ],

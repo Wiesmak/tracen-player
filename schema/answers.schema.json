@@ -12,14 +12,14 @@
       "text": {
         "type": "string"
       },
+      "text_en": {
+        "type": "string"
+      },
       "image": {
         "type": "string"
       }
     },
-    "required": [
-      "id",
-      "text"
-    ],
+    "required": ["id", "text", "text_en"],
     "additionalProperties": false
   }
 }

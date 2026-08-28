@@ -4,7 +4,9 @@
     "title": "Rozpoznaj umę w ciemności",
     "image": "button_all.png",
     "description": "O nie, ktoś zgasił światło w stajni! Czy potrafisz rozpoznać umamusume po samych sylwetkach?",
-    "type": "uma"
+    "type": "uma",
+    "title_en": "Recognize the uma in the Dark",
+    "description_en": "Oh no, someone turned off the lights in the stable! Can you recognize the Umamusume by their silhouettes alone?"
   },
   "questions": [
     {
@@ -13,7 +15,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Agnes_Digital.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "002",
@@ -21,7 +24,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Agnes_Tachyon.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "003",
@@ -29,7 +33,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Air_Groove.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "004",
@@ -37,7 +42,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Air_Shakur.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "005",
@@ -45,7 +51,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Biwa_Hayahide.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "006",
@@ -53,7 +60,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Curren_Chan.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "007",
@@ -61,7 +69,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Daiwa_Scarlet.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "008",
@@ -69,7 +78,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Eishin_Flash.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "009",
@@ -77,7 +87,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_El_Condor_Pasa.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "010",
@@ -85,7 +96,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Fine_Motion.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "011",
@@ -93,7 +105,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Fuji_Kiseki.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "012",
@@ -101,7 +114,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Gold_City.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "013",
@@ -109,7 +123,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Gold_Ship.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "014",
@@ -117,7 +132,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Grass_Wonder.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "015",
@@ -125,7 +141,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Haru_Urara.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "016",
@@ -133,7 +150,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Hishi_Akebono.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "017",
@@ -141,7 +159,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Hishi_Amazon.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "018",
@@ -149,7 +168,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Inari_One.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "019",
@@ -157,7 +177,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Ines_Fujin.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "020",
@@ -165,7 +186,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Kawakami_Princess.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "021",
@@ -173,7 +195,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_King_Halo.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "022",
@@ -181,7 +204,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Kitasan_Black.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "023",
@@ -189,7 +213,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Manhattan_Cafe.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "024",
@@ -197,7 +222,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Maruzensky.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "025",
@@ -205,7 +231,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Matikanefukukitaru.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "026",
@@ -213,7 +240,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Matikanetannhauser.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "027",
@@ -221,7 +249,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Mayano_Top_Gun.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "028",
@@ -229,7 +258,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Meisho_Doto.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "029",
@@ -237,7 +267,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Mejiro_Bright.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "030",
@@ -245,7 +276,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Mejiro_Dober.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "031",
@@ -253,7 +285,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Mejiro_McQueen.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "032",
@@ -261,7 +294,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Mejiro_Palmer.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "033",
@@ -269,7 +303,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Mejiro_Ryan.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "034",
@@ -277,7 +312,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Mihono_Bourbon.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "035",
@@ -285,7 +321,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Narita_Brian.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "036",
@@ -293,7 +330,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Narita_Taishin.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "037",
@@ -301,7 +339,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Nice_Nature.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "038",
@@ -309,7 +348,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Nishino_Flower.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "039",
@@ -317,7 +357,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Oguri_Cap.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "040",
@@ -325,7 +366,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Rice_Shower.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "041",
@@ -333,7 +375,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Sakura_Bakushin_O.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "042",
@@ -341,7 +384,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Sakura_Chiyono_O.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "043",
@@ -349,7 +393,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Satono_Diamond.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "044",
@@ -357,7 +402,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Seiun_Sky.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "045",
@@ -365,7 +411,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Silence_Suzuka.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "046",
@@ -373,7 +420,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Smart_Falcon.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "047",
@@ -381,7 +429,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Special_Week.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "048",
@@ -389,7 +438,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Super_Creek.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "049",
@@ -397,7 +447,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Sweep_Tosho.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "050",
@@ -405,7 +456,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Symboli_Rudolf.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "051",
@@ -413,7 +465,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_T.M._Opera_O.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "052",
@@ -421,7 +474,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Taiki_Shuttle.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "053",
@@ -429,7 +483,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Tamamo_Cross.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "054",
@@ -437,7 +492,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Tokai_Teio.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "055",
@@ -445,7 +501,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Tosen_Jordan.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "056",
@@ -453,7 +510,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Vodka.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "057",
@@ -461,7 +519,8 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Winning_Ticket.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     },
     {
       "id": "058",
@@ -469,299 +528,358 @@
       "text": "Kto to jest?",
       "images": [
         "silhouette/sil_Yaeno_Muteki.png"
-      ]
+      ],
+      "text_en": "Who is this?"
     }
   ],
   "answers": [
     {
       "id": "001",
       "text": "Special Week",
-      "image": "umamusume_racewear/special_week_racewear.png"
+      "image": "umamusume_racewear/special_week_racewear.png",
+      "text_en": "Special Week"
     },
     {
       "id": "002",
       "text": "Silence Suzuka",
-      "image": "umamusume_racewear/silence_suzuka_racewear.png"
+      "image": "umamusume_racewear/silence_suzuka_racewear.png",
+      "text_en": "Silence Suzuka"
     },
     {
       "id": "003",
       "text": "Tokai Teio",
-      "image": "umamusume_racewear/tokai_teio_racewear.png"
+      "image": "umamusume_racewear/tokai_teio_racewear.png",
+      "text_en": "Tokai Teio"
     },
     {
       "id": "004",
       "text": "Maruzensky",
-      "image": "umamusume_racewear/maruzensky_racewear.png"
+      "image": "umamusume_racewear/maruzensky_racewear.png",
+      "text_en": "Maruzensky"
     },
     {
       "id": "005",
       "text": "Oguri Cap",
-      "image": "umamusume_racewear/oguri_cap_racewear.png"
+      "image": "umamusume_racewear/oguri_cap_racewear.png",
+      "text_en": "Oguri Cap"
     },
     {
       "id": "006",
       "text": "Gold Ship",
-      "image": "umamusume_racewear/gold_ship_racewear.png"
+      "image": "umamusume_racewear/gold_ship_racewear.png",
+      "text_en": "Gold Ship"
     },
     {
       "id": "007",
       "text": "Fuji Kiseki",
-      "image": "umamusume_racewear/fuji_kiseki_racewear.png"
+      "image": "umamusume_racewear/fuji_kiseki_racewear.png",
+      "text_en": "Fuji Kiseki"
     },
     {
       "id": "008",
       "text": "Vodka",
-      "image": "umamusume_racewear/vodka_racewear.png"
+      "image": "umamusume_racewear/vodka_racewear.png",
+      "text_en": "Vodka"
     },
     {
       "id": "009",
       "text": "Daiwa Scarlet",
-      "image": "umamusume_racewear/daiwa_scarlet_racewear.png"
+      "image": "umamusume_racewear/daiwa_scarlet_racewear.png",
+      "text_en": "Daiwa Scarlet"
     },
     {
       "id": "010",
       "text": "Taiki Shuttle",
-      "image": "umamusume_racewear/taiki_shuttle_racewear.png"
+      "image": "umamusume_racewear/taiki_shuttle_racewear.png",
+      "text_en": "Taiki Shuttle"
     },
     {
       "id": "011",
       "text": "Grass Wonder",
-      "image": "umamusume_racewear/grass_wonder_racewear.png"
+      "image": "umamusume_racewear/grass_wonder_racewear.png",
+      "text_en": "Grass Wonder"
     },
     {
       "id": "012",
       "text": "Hishi Amazon",
-      "image": "umamusume_racewear/hishi_amazon_racewear.png"
+      "image": "umamusume_racewear/hishi_amazon_racewear.png",
+      "text_en": "Hishi Amazon"
     },
     {
       "id": "013",
       "text": "Mejiro McQueen",
-      "image": "umamusume_racewear/mejiro_mcqueen_racewear.png"
+      "image": "umamusume_racewear/mejiro_mcqueen_racewear.png",
+      "text_en": "Mejiro McQueen"
     },
     {
       "id": "014",
       "text": "El Condor Pasa",
-      "image": "umamusume_racewear/el_condor_pasa_racewear.png"
+      "image": "umamusume_racewear/el_condor_pasa_racewear.png",
+      "text_en": "El Condor Pasa"
     },
     {
       "id": "015",
       "text": "TM Opera O",
-      "image": "umamusume_racewear/t.m._opera_o_racewear.png"
+      "image": "umamusume_racewear/t.m._opera_o_racewear.png",
+      "text_en": "TM Opera O"
     },
     {
       "id": "016",
       "text": "Narita Brian",
-      "image": "umamusume_racewear/narita_brian_racewear.png"
+      "image": "umamusume_racewear/narita_brian_racewear.png",
+      "text_en": "Narita Brian"
     },
     {
       "id": "017",
       "text": "Symboli Rudolf",
-      "image": "umamusume_racewear/symboli_rudolf_racewear.png"
+      "image": "umamusume_racewear/symboli_rudolf_racewear.png",
+      "text_en": "Symboli Rudolf"
     },
     {
       "id": "018",
       "text": "Air Groove",
-      "image": "umamusume_racewear/air_groove_racewear.png"
+      "image": "umamusume_racewear/air_groove_racewear.png",
+      "text_en": "Air Groove"
     },
     {
       "id": "019",
       "text": "Agnes Digital",
-      "image": "umamusume_racewear/agnes_digital_racewear.png"
+      "image": "umamusume_racewear/agnes_digital_racewear.png",
+      "text_en": "Agnes Digital"
     },
     {
       "id": "020",
       "text": "Seiun Sky",
-      "image": "umamusume_racewear/seiun_sky_racewear.png"
+      "image": "umamusume_racewear/seiun_sky_racewear.png",
+      "text_en": "Seiun Sky"
     },
     {
       "id": "021",
       "text": "Tamamo Cross",
-      "image": "umamusume_racewear/tamamo_cross_racewear.png"
+      "image": "umamusume_racewear/tamamo_cross_racewear.png",
+      "text_en": "Tamamo Cross"
     },
     {
       "id": "022",
       "text": "Fine Motion",
-      "image": "umamusume_racewear/fine_motion_racewear.png"
+      "image": "umamusume_racewear/fine_motion_racewear.png",
+      "text_en": "Fine Motion"
     },
     {
       "id": "023",
       "text": "Biwa Hayahide",
-      "image": "umamusume_racewear/biwa_hayahide_racewear.png"
+      "image": "umamusume_racewear/biwa_hayahide_racewear.png",
+      "text_en": "Biwa Hayahide"
     },
     {
       "id": "024",
       "text": "Mayano Top Gun",
-      "image": "umamusume_racewear/mayano_top_gun_racewear.png"
+      "image": "umamusume_racewear/mayano_top_gun_racewear.png",
+      "text_en": "Mayano Top Gun"
     },
     {
       "id": "025",
       "text": "Manhattan Cafe",
-      "image": "umamusume_racewear/manhattan_cafe_racewear.png"
+      "image": "umamusume_racewear/manhattan_cafe_racewear.png",
+      "text_en": "Manhattan Cafe"
     },
     {
       "id": "026",
       "text": "Mihono Bourbon",
-      "image": "umamusume_racewear/mihono_bourbon_racewear.png"
+      "image": "umamusume_racewear/mihono_bourbon_racewear.png",
+      "text_en": "Mihono Bourbon"
     },
     {
       "id": "027",
       "text": "Mejiro Ryan",
-      "image": "umamusume_racewear/mejiro_ryan_racewear.png"
+      "image": "umamusume_racewear/mejiro_ryan_racewear.png",
+      "text_en": "Mejiro Ryan"
     },
     {
       "id": "028",
       "text": "Hishi Akebono",
-      "image": "umamusume_racewear/hishi_akebono_racewear.png"
+      "image": "umamusume_racewear/hishi_akebono_racewear.png",
+      "text_en": "Hishi Akebono"
     },
     {
       "id": "030",
       "text": "Rice Shower",
-      "image": "umamusume_racewear/rice_shower_racewear.png"
+      "image": "umamusume_racewear/rice_shower_racewear.png",
+      "text_en": "Rice Shower"
     },
     {
       "id": "031",
       "text": "Ines Fujin",
-      "image": "umamusume_racewear/ines_fujin_racewear.png"
+      "image": "umamusume_racewear/ines_fujin_racewear.png",
+      "text_en": "Ines Fujin"
     },
     {
       "id": "032",
       "text": "Agnes Tachyon",
-      "image": "umamusume_racewear/agnes_tachyon_racewear.png"
+      "image": "umamusume_racewear/agnes_tachyon_racewear.png",
+      "text_en": "Agnes Tachyon"
     },
     {
       "id": "034",
       "text": "Inari One",
-      "image": "umamusume_racewear/inari_one_racewear.png"
+      "image": "umamusume_racewear/inari_one_racewear.png",
+      "text_en": "Inari One"
     },
     {
       "id": "035",
       "text": "Winning Ticket",
-      "image": "umamusume_racewear/winning_ticket_racewear.png"
+      "image": "umamusume_racewear/winning_ticket_racewear.png",
+      "text_en": "Winning Ticket"
     },
     {
       "id": "036",
       "text": "Air Shakur",
-      "image": "umamusume_racewear/air_shakur_racewear.png"
+      "image": "umamusume_racewear/air_shakur_racewear.png",
+      "text_en": "Air Shakur"
     },
     {
       "id": "037",
       "text": "Eishin Flash",
-      "image": "umamusume_racewear/eishin_flash_racewear.png"
+      "image": "umamusume_racewear/eishin_flash_racewear.png",
+      "text_en": "Eishin Flash"
     },
     {
       "id": "038",
       "text": "Curren Chan",
-      "image": "umamusume_racewear/curren_chan_racewear.png"
+      "image": "umamusume_racewear/curren_chan_racewear.png",
+      "text_en": "Curren Chan"
     },
     {
       "id": "039",
       "text": "Kawakami Princess",
-      "image": "umamusume_racewear/kawakami_princess_racewear.png"
+      "image": "umamusume_racewear/kawakami_princess_racewear.png",
+      "text_en": "Kawakami Princess"
     },
     {
       "id": "040",
       "text": "Gold City",
-      "image": "umamusume_racewear/gold_city_racewear.png"
+      "image": "umamusume_racewear/gold_city_racewear.png",
+      "text_en": "Gold City"
     },
     {
       "id": "041",
       "text": "Sakura Bakushin O",
-      "image": "umamusume_racewear/sakura_bakushin_o_racewear.png"
+      "image": "umamusume_racewear/sakura_bakushin_o_racewear.png",
+      "text_en": "Sakura Bakushin O"
     },
     {
       "id": "044",
       "text": "Sweep Tosho",
-      "image": "umamusume_racewear/sweep_tosho_racewear.png"
+      "image": "umamusume_racewear/sweep_tosho_racewear.png",
+      "text_en": "Sweep Tosho"
     },
     {
       "id": "045",
       "text": "Super Creek",
-      "image": "umamusume_racewear/super_creek_racewear.png"
+      "image": "umamusume_racewear/super_creek_racewear.png",
+      "text_en": "Super Creek"
     },
     {
       "id": "046",
       "text": "Smart Falcon",
-      "image": "umamusume_racewear/smart_falcon_racewear.png"
+      "image": "umamusume_racewear/smart_falcon_racewear.png",
+      "text_en": "Smart Falcon"
     },
     {
       "id": "048",
       "text": "Tosen Jordan",
-      "image": "umamusume_racewear/tosen_jordan_racewear.png"
+      "image": "umamusume_racewear/tosen_jordan_racewear.png",
+      "text_en": "Tosen Jordan"
     },
     {
       "id": "050",
       "text": "Narita Taishin",
-      "image": "umamusume_racewear/narita_taishin_racewear.png"
+      "image": "umamusume_racewear/narita_taishin_racewear.png",
+      "text_en": "Narita Taishin"
     },
     {
       "id": "051",
       "text": "Nishino Flower",
-      "image": "umamusume_racewear/nishino_flower_racewear.png"
+      "image": "umamusume_racewear/nishino_flower_racewear.png",
+      "text_en": "Nishino Flower"
     },
     {
       "id": "052",
       "text": "Haru Urara",
-      "image": "umamusume_racewear/haru_urara_racewear.png"
+      "image": "umamusume_racewear/haru_urara_racewear.png",
+      "text_en": "Haru Urara"
     },
     {
       "id": "056",
       "text": "Matikanefukukitaru",
-      "image": "umamusume_racewear/matikanefukukitaru_racewear.png"
+      "image": "umamusume_racewear/matikanefukukitaru_racewear.png",
+      "text_en": "Matikanefukukitaru"
     },
     {
       "id": "058",
       "text": "Meisho Doto",
-      "image": "umamusume_racewear/meisho_doto_racewear.png"
+      "image": "umamusume_racewear/meisho_doto_racewear.png",
+      "text_en": "Meisho Doto"
     },
     {
       "id": "059",
       "text": "Mejiro Dober",
-      "image": "umamusume_racewear/mejiro_dober_racewear.png"
+      "image": "umamusume_racewear/mejiro_dober_racewear.png",
+      "text_en": "Mejiro Dober"
     },
     {
       "id": "060",
       "text": "Nice Nature",
-      "image": "umamusume_racewear/nice_nature_racewear.png"
+      "image": "umamusume_racewear/nice_nature_racewear.png",
+      "text_en": "Nice Nature"
     },
     {
       "id": "061",
       "text": "King Halo",
-      "image": "umamusume_racewear/king_halo_racewear.png"
+      "image": "umamusume_racewear/king_halo_racewear.png",
+      "text_en": "King Halo"
     },
     {
       "id": "062",
       "text": "Matikanetannhauser",
-      "image": "umamusume_racewear/matikanetannhauser_racewear.png"
+      "image": "umamusume_racewear/matikanetannhauser_racewear.png",
+      "text_en": "Matikanetannhauser"
     },
     {
       "id": "064",
       "text": "Mejiro Palmer",
-      "image": "umamusume_racewear/mejiro_palmer_racewear.png"
+      "image": "umamusume_racewear/mejiro_palmer_racewear.png",
+      "text_en": "Mejiro Palmer"
     },
     {
       "id": "067",
       "text": "Satono Diamond",
-      "image": "umamusume_racewear/satono_diamond_racewear.png"
+      "image": "umamusume_racewear/satono_diamond_racewear.png",
+      "text_en": "Satono Diamond"
     },
     {
       "id": "068",
       "text": "Kitasan Black",
-      "image": "umamusume_racewear/kitasan_black_racewear.png"
+      "image": "umamusume_racewear/kitasan_black_racewear.png",
+      "text_en": "Kitasan Black"
     },
     {
       "id": "069",
       "text": "Sakura Chiyono O",
-      "image": "umamusume_racewear/sakura_chiyono_o_racewear.png"
+      "image": "umamusume_racewear/sakura_chiyono_o_racewear.png",
+      "text_en": "Sakura Chiyono O"
     },
     {
       "id": "072",
       "text": "Yaeno Muteki",
-      "image": "umamusume_racewear/yaeno_muteki_racewear.png"
+      "image": "umamusume_racewear/yaeno_muteki_racewear.png",
+      "text_en": "Yaeno Muteki"
     },
     {
       "id": "074",
       "text": "Mejiro Bright",
-      "image": "umamusume_racewear/mejiro_bright_racewear.png"
+      "image": "umamusume_racewear/mejiro_bright_racewear.png",
+      "text_en": "Mejiro Bright"
     }
   ]
 }
