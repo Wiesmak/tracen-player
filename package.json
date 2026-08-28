@@ -20,7 +20,7 @@
     "@types/lodash": "^4.17.25",
     "@wiesmak/umaui-react": "^0.1.0",
     "lodash": "^4.18.1",
-    "next": "16.2.7",
+    "next": "16.2.11",
     "react": "19.2.7",
     "react-dom": "19.2.7",
     "react-redux": "^9.3.0",
